@@ -1,0 +1,358 @@
+TCardContainer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Info.plist CardContainer/CardContainer-Info.plist
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.pth CardContainer/CardContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer normal i386
+cGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer
+cCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/en.lproj/InfoPlist.strings CardContainer/en.lproj/InfoPlist.strings
+cCpResource CardContainer/Default@2x.png build/Debug-iphonesimulator/CardContainer.app/Default@2x.png
+cCpResource CardContainer/Default.png build/Debug-iphonesimulator/CardContainer.app/Default.png
+cCpResource CardContainer/Default-568h@2x.png build/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.png
+cTouch /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m
+c000000005185447A0000000000000881
+t1367688314
+s2177
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainer-Prefix.pch
+c000000005185447A0000000000000149
+t1367688314
+s329
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m
+c00000000518544D000000000000002F1
+t1367688400
+s753
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m
+c00000000518545C900000000000002D9
+t1367688649
+s729
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.m
+c00000000518544AA00000000000000C7
+t1367688362
+s199
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/en.lproj/InfoPlist.strings
+c000000005185447A000000000000002D
+t1367688314
+s45
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m
+c000000005185447A0000000000000151
+t1367688314
+s337
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainer.LinkFileList
+c00000000518545F100000000000002A7
+t1367688689
+s679
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardProtocol.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Default.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Default@2x.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Info.plist
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/PkgInfo
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.pth
+t2
+s0
+
+NCardContainer/CardContainer-Info.plist
+c000000005185447A00000000000005AE
+t1367688314
+s1454
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese6c9bd717d35b741^16f8c6717d35b741^---0#1#0#--18"Check dependencies36"07768332-3C82-4D5C-BC02-CF7262924E77-
+
+CCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389381490.580229
+e389381490.736312
+r1
+xCompileC
+xbuild/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.mb9a694727d35b741^287ebc727d35b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m0000000000000000^3913"CompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.o CardContainer/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/AppDelegate.o36"0473D4A3-9740-46C6-858F-393DEFB0328D-
+
+CCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389381490.580754
+e389381490.721173
+r1
+xCompileC
+xbuild/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m75c994727d35b741^569eb8727d35b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m0000000000000000^4009"CompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.o CardContainer/CardContainerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainerViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainerViewController.o36"F72B75A0-E951-4B5C-AE42-F4459531DFE6-
+
+CCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389381490.580746
+e389381490.727998
+r1
+xCompileC
+xbuild/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m:15:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation CardOneViewController
+o                ^
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m:15:17: warning: method 'pullOutAnimated:' in protocol not implemented [-Wprotocol]
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.h:13:1: note: method 'pullOutAnimated:' declared here
+o- (void)pullOutAnimated:(BOOL)animated;
+o^
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.h:12:12: note: required for direct or indirect protocol 'CardProtocol'
+o@interface CardOneViewController : UIViewController <CardProtocol>
+o           ^
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m:15:17: warning: method 'pushInAnimated:' in protocol not implemented [-Wprotocol]
+o@implementation CardOneViewController
+o                ^
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.h:14:1: note: method 'pushInAnimated:' declared here
+o- (void)pushInAnimated:(BOOL)animated;
+o^
+o/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.h:12:12: note: required for direct or indirect protocol 'CardProtocol'
+o@interface CardOneViewController : UIViewController <CardProtocol>
+o           ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m3fc694727d35b741^5ea2ba727d35b741^-1544"/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m:15:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation CardOneViewController                ^/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m:15:17: warning: method 'pullOutAnimated:' in protocol not implemented [-Wprotocol]/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.h:13:1: note: method 'pullOutAnimated:' declared here- (void)pullOutAnimated:(BOOL)animated;^/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.h:12:12: note: required for direct or indirect protocol 'CardProtocol'@interface CardOneViewController : UIViewController <CardProtocol>           ^/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m:15:17: warning: method 'pushInAnimated:' in protocol not implemented [-Wprotocol]@implementation CardOneViewController                ^/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.h:14:1: note: method 'pushInAnimated:' declared here- (void)pushInAnimated:(BOOL)animated;^/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.h:12:12: note: required for direct or indirect protocol 'CardProtocol'@interface CardOneViewController : UIViewController <CardProtocol>           ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-389381490#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m0000000000000000^14#16#14#16#241#0#14"Semantic Issue--2@53"Method 'pullOutAnimated:' in protocol not implemented-389381490#18446744073709551615#0#2(2@39"Method 'pullOutAnimated:' declared here-389381490#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.h0000000000000000^12#0#12#0#208#0#14"Semantic Issue--2@55"Required for direct or indirect protocol 'CardProtocol'-389381490#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.h0000000000000000^11#11#11#11#208#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m0000000000000000^14#16#14#16#241#0#14"Semantic Issue--2@52"Method 'pushInAnimated:' in protocol not implemented-389381490#18446744073709551615#0#2(2@38"Method 'pushInAnimated:' declared here-389381490#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.h0000000000000000^13#0#13#0#248#0#14"Semantic Issue--2@55"Required for direct or indirect protocol 'CardProtocol'-389381490#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.h0000000000000000^11#11#11#11#208#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m0000000000000000^14#16#14#16#241#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m0000000000000000^3973"CompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.o CardContainer/CardOneViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardOneViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardOneViewController.o36"25809CDF-0E1C-4FAE-9E15-1B95EEE7BB4A-
+
+CCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardProtocol.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389381490.580198
+e389381490.714362
+r1
+xCompileC
+xbuild/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m55a694727d35b741^6ee0b6727d35b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m0000000000000000^3871"CompileC build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.o CardContainer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/main.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/main.o36"72E4385A-24AB-43EF-A4EA-8EC86CE6FA20-
+
+CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/en.lproj/InfoPlist.strings CardContainer/en.lproj/InfoPlist.strings
+s389381491.976820
+e389381492.024204
+r1
+xCopyStringsFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/en.lproj/InfoPlist.strings
+xCardContainer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy CardContainer/en.lproj/InfoPlist.stringsb326fa737d35b741^c23206747d35b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/en.lproj/InfoPlist.strings0000000000000000^647"CopyStringsFile build/Debug-iphonesimulator/CardContainer.app/en.lproj/InfoPlist.strings CardContainer/en.lproj/InfoPlist.strings    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/en.lproj -- CardContainer/en.lproj/InfoPlist.strings36"DE8B8349-ECD4-4A53-8C43-4C1A4F6A846A-
+
+CCpResource CardContainer/Default-568h@2x.png build/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.png
+s389381491.977169
+e389381492.005530
+r1
+xCpResource
+xCardContainer/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.pngec34fa737d35b741^a96b01747d35b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.png000000000080d041^700"CpResource "CardContainer/Default-568h@2x.png" "build/Debug-iphonesimulator/CardContainer.app/Default-568h@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/Default-568h@2x.png" /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app36"D0866EA5-5367-4CAC-82C4-C1BDCB46920A-
+
+CCpResource CardContainer/Default.png build/Debug-iphonesimulator/CardContainer.app/Default.png
+s389381491.976853
+e389381491.979753
+r1
+xCpResource
+xCardContainer/Default.png
+xbuild/Debug-iphonesimulator/CardContainer.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/CardContainer.app/Default.pngbc24fa737d35b741^5bd1fa737d35b741^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Default.png000000000080d041^670"CpResource CardContainer/Default.png build/Debug-iphonesimulator/CardContainer.app/Default.png    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/Default.png /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app36"910676C6-418A-4DD2-ACCE-C18B2A17D662-
+
+CCpResource CardContainer/Default@2x.png build/Debug-iphonesimulator/CardContainer.app/Default@2x.png
+s389381491.976840
+e389381492.004852
+r1
+xCpResource
+xCardContainer/Default@2x.png
+xbuild/Debug-iphonesimulator/CardContainer.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphonesimulator/CardContainer.app/Default@2x.png3125fa737d35b741^a33e01747d35b741^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Default@2x.png000000000080d041^685"CpResource "CardContainer/Default@2x.png" "build/Debug-iphonesimulator/CardContainer.app/Default@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/Default@2x.png" /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app36"D2521413-85D1-4D1A-B4A4-9111D09B4DE2-
+
+CGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer
+s389381491.906706
+e389381491.967658
+r1
+xGenerateDSYMFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Generate /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM5a48e8737d35b741^91b8f7737d35b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM000000000080d041^733"GenerateDSYMFile build/Debug-iphonesimulator/CardContainer.app.dSYM build/Debug-iphonesimulator/CardContainer.app/CardContainer    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app.dSYM36"CEEF76E7-9A0B-453A-B1D2-CBD02E3A9D21-
+
+CLd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer normal i386
+s389381490.765534
+e389381491.898678
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Link /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer560fc4727d35b741^5611e6737d35b741^---0#0#0#--1309"Ld build/Debug-iphonesimulator/CardContainer.app/CardContainer normal i386    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator -F/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator -filelist /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/Objects-normal/i386/CardContainer.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/CardContainer36"FE19AFF9-C95C-4C6E-B663-3FDA9019D785-
+
+CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Info.plist CardContainer/CardContainer-Info.plist
+s389381489.781809
+e389381489.786004
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Info.plist
+xCardContainer/CardContainer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process CardContainer/CardContainer-Info.plist433ac8717d35b741^d237c9717d35b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainer-Info.plist0000000000000000^764"ProcessInfoPlistFile build/Debug-iphonesimulator/CardContainer.app/Info.plist CardContainer/CardContainer-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CardContainer/CardContainer-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app/Info.plist36"0AF4B537-7399-44FF-A275-C629F9591FB8-
+
+CProcessPCH /Users/harikunwar/Library/Developer/Xcode/DerivedData/CardContainer-gxwksjujnmzbhndomxsfbdktfgsh/Index/PrecompiledHeaders/CardContainer-Prefix-dxbkusvzogdmhygznclyxhhdloin_ast/CardContainer-Prefix.pch.pth CardContainer/CardContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.pth CardContainer/CardContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389381489.794587
+e389381490.573464
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.pth
+xCardContainer/CardContainer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile CardContainer/CardContainer-Prefix.pcha48dcb717d35b741^eacf92727d35b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainer-Prefix.pch0000000000000000^3857"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.pth CardContainer/CardContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/CardContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/CardContainer.build/Debug-iphonesimulator/CardContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/CardContainer/CardContainer-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CardContainer-Prefix-gvdgpqyuvvwrnwdsyfultrmsouof/CardContainer-Prefix.pch.d36"86561EDA-5D2D-4971-98F2-EE9F57338547-
+
+CTouch /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app
+s389381492.033346
+e389381492.100551
+r1
+xTouch
+x/Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Touch /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app59a508747d35b741^f9bd19747d35b741^---0#0#0#--448"Touch build/Debug-iphonesimulator/CardContainer.app    cd /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harikunwar/Documents/GitHub/iOSContainers/CardContainer/build/Debug-iphonesimulator/CardContainer.app36"5DD1DC76-C4FB-45A1-AC69-532778D4F58E-
+
