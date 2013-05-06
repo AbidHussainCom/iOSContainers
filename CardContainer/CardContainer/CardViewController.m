@@ -12,6 +12,8 @@
 @interface CardViewController () <UIGestureRecognizerDelegate>
 
 @property (nonatomic, assign) CGPoint gestureStartPoint;
+@property (nonatomic, readwrite, assign) BOOL maximized;
+@property (nonatomic, readwrite, assign) BOOL minimized;
 
 @end
 
@@ -38,10 +40,10 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Pan card
+
 - (void)panCard:(UIPanGestureRecognizer *)gestureRecognizer
 {
     UIView *cardView = [gestureRecognizer view];
@@ -56,15 +58,39 @@
     translatedPoint = CGPointMake(_gestureStartPoint.x, _gestureStartPoint.y + translatedPoint.y);
     [cardView setCenter:translatedPoint];
     
+    CGPoint velocity = [(UIPanGestureRecognizer *)gestureRecognizer velocityInView:self.view];
+    
     if (recognizerState == UIGestureRecognizerStateEnded){
-        BOOL viewPannedUp = translatedPoint.y < _defaultCenter.y ? YES : NO;
+        BOOL viewPannedUp = velocity.y < 0 ? YES : NO;
         
         if(viewPannedUp){
-            [self maximizeCard:self animated:YES];
+            [self maximizeCardAnimated:YES];
+            _maximized = YES;
+            [self minimizeTopCardsAnimated:YES];
         }
         else {
-            [self restoreCard:self animated:YES];
+            [self restoreCardAnimated:YES];
+
+            if(_maximized)
+                [self restoreTopCardsAnimated:YES];
+            
+            _maximized = NO;
         }
+    }
+}
+
+#pragma mark - Minimize/Restore top cards
+- (void)minimizeTopCardsAnimated:(BOOL)animated
+{
+    if([_delegate respondsToSelector:@selector(cardViewController: shouldMinimizeTopCardsAnimated:)]){
+        [_delegate cardViewController:self shouldMinimizeTopCardsAnimated:animated];
+    }
+}
+
+- (void)restoreTopCardsAnimated:(BOOL)animated
+{
+    if([_delegate respondsToSelector:@selector(cardViewController: shouldRestoreTopCardsAnimated:)]){
+        [_delegate cardViewController:self shouldRestoreTopCardsAnimated:YES];
     }
 }
 
@@ -83,45 +109,37 @@
 
 #pragma mark - Maximize, Minimize and Restore(default size) cards
 
-- (void)maximizeCard:(UIViewController *)card animated:(BOOL)animated
+- (void)maximizeCardAnimated:(BOOL)animated
 {
-    if (card == nil)
-        return;
-    
     CGRect maxFrame = [self cardViewMaxFrame];
     if(animated){
         [self slideCardToFrame:maxFrame];
     }
     else {
-        card.view.frame = maxFrame;
+        self.view.frame = maxFrame;
     }
 }
 
-- (void)minimizeCard:(UIViewController *)card animated:(BOOL)animated
+- (void)minimizeCardAnimated:(BOOL)animated
 {
-    if (card == nil)
-        return;
-    
-    CGRect minFrame = [self cardViewMaxFrame];
+
+    CGRect minFrame = [self cardViewMinFrame];
     
     if(animated){
         [self slideCardToFrame:minFrame];
     }
     else {
-        card.view.frame = minFrame;
+        self.view.frame = minFrame;
     }
 }
 
-- (void)restoreCard:(UIViewController *)card animated:(BOOL)animated
+- (void)restoreCardAnimated:(BOOL)animated
 {
-    if (card == nil)
-        return;
-        
     if(animated){
         [self slideCardToCenter:_defaultCenter];
     }
     else {
-        card.view.center = _defaultCenter;
+        self.view.center = _defaultCenter;
     }
 }
 

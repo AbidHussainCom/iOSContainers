@@ -7,13 +7,13 @@
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "CardContainer/CardViewController.m"
-         timestampString = "389486878.312234"
+         filePath = "CardContainer/CardContainerViewController.m"
+         timestampString = "389513079.956199"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "62"
-         endingLineNumber = "62"
-         landmarkName = "-panCard:"
+         startingLineNumber = "112"
+         endingLineNumber = "112"
+         landmarkName = "-cardViewController:shouldMinimizeTopCardsAnimated:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

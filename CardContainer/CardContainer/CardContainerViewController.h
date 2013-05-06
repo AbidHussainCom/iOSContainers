@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CardProtocol.h"
 
 @interface CardContainerViewController : UIViewController
 

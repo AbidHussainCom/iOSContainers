@@ -38,7 +38,6 @@
 		1E173E3217357BFA00CC40C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1E173E3417357BFA00CC40C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1E173E3617357BFA00CC40C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1E173E3D17357C2B00CC40C6 /* CardProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardProtocol.h; sourceTree = "<group>"; };
 		1E173E4017357C5000CC40C6 /* CardContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardContainerViewController.h; sourceTree = "<group>"; };
 		1E173E4117357C5000CC40C6 /* CardContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardContainerViewController.m; sourceTree = "<group>"; };
 		1E173E4317357D4A00CC40C6 /* CardOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardOneViewController.h; sourceTree = "<group>"; };
@@ -101,7 +100,6 @@
 				1E173E3017357BFA00CC40C6 /* AppDelegate.m */,
 				1E173E4017357C5000CC40C6 /* CardContainerViewController.h */,
 				1E173E4117357C5000CC40C6 /* CardContainerViewController.m */,
-				1E173E3D17357C2B00CC40C6 /* CardProtocol.h */,
 				1E19C966173711C400A2CB8D /* CardViewController.h */,
 				1E19C967173711C400A2CB8D /* CardViewController.m */,
 				1E173E4317357D4A00CC40C6 /* CardOneViewController.h */,

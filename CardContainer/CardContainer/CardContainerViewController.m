@@ -12,7 +12,7 @@
 #define CONTAINER_TOP_CARD_Y 100.0f
 #define CARD_HOLDING_HEAD   50.0f
 
-@interface CardContainerViewController ()
+@interface CardContainerViewController () <CardViewControllerDelegate>
 
 @property (nonatomic, readwrite, copy) NSArray *viewControllers;
 @property (nonatomic, readwrite) UIViewController *selectedController;
@@ -42,7 +42,6 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Private card methods
@@ -51,17 +50,18 @@
     if(cards == nil)
         return;
     
-    for(UIViewController<CardProtocol> *card in cards){
+    for(CardViewController *card in cards){
         [self addChildViewController:card];
         [self.view addSubview:card.view];
         [card didMoveToParentViewController:self];
+        card.delegate = self;
     }
 }
 
 - (void)stackCards
 {
     NSUInteger index = 0;
-    for(UIViewController<CardProtocol> *card in self.childViewControllers){
+    for(UIViewController *card in self.childViewControllers){
         [self pushInCardAtIndex:index animated:NO];
         index++;
     }
@@ -69,26 +69,6 @@
 
 
 #pragma mark - Public card methods
-//- (void)pullOutCard:(UIViewController<CardProtocol> *)card animated:(BOOL)animated
-//{
-//
-//}
-//
-//- (void)pullOutCardAtIndex:(NSUInteger)index animated:(BOOL)animated
-//{
-//
-//}
-//
-//- (void)pushInCard:(UIViewController<CardProtocol> *)card animated:(BOOL)animated
-//{
-//    if (card == nil)
-//        return;
-//    
-//    NSUInteger cardIndex = [self.childViewControllers indexOfObject:card];
-//    
-//    if(cardIndex != NSNotFound)
-//        [self pushInCardAtIndex:cardIndex animated:(BOOL)animated];
-//}
 
 - (void)pushInCardAtIndex:(NSUInteger)index animated:(BOOL)animated
 {
@@ -125,6 +105,36 @@
     return CGRectMake(x, y, width, height);
 }
 
+#pragma mark - CardViewControllerDelegate
+
+- (void)cardViewController:(id)sender shouldMinimizeTopCardsAnimated:(BOOL)animated
+{
+    if (sender == nil)
+        return;
+    
+    NSUInteger index = [self.childViewControllers indexOfObject:sender];
+    NSUInteger count = [self.childViewControllers count];
+    
+    for(int i = index + 1 ; i < count; i++){
+        CardViewController *card = [self.childViewControllers objectAtIndex:i];
+        [card minimizeCardAnimated:animated];
+    }
+}
+
+- (void)cardViewController:(id)sender shouldRestoreTopCardsAnimated:(BOOL)animated;
+{
+    if (sender == nil)
+        return;
+    
+    NSUInteger index = [self.childViewControllers indexOfObject:sender];
+    NSUInteger count = [self.childViewControllers count];
+    
+    for(int i = index + 1 ; i < count; i++){
+        CardViewController *card = [self.childViewControllers objectAtIndex:i];
+        [card restoreCardAnimated:YES];
+    }
+
+}
 
 
 @end
