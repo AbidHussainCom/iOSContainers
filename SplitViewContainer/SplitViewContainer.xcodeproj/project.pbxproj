@@ -16,6 +16,13 @@
 		1E1EB239173894F500A5118F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1EB238173894F500A5118F /* Default.png */; };
 		1E1EB23B173894F500A5118F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1EB23A173894F500A5118F /* Default@2x.png */; };
 		1E1EB23D173894F500A5118F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E1EB23C173894F500A5118F /* Default-568h@2x.png */; };
+		1E1EB2451738986F00A5118F /* SplitViewContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB2441738986F00A5118F /* SplitViewContainerController.m */; };
+		1E1EB25417389A1400A5118F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB25317389A1400A5118F /* OneViewController.m */; };
+		1E1EB25717389A2200A5118F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB25617389A2200A5118F /* TwoViewController.m */; };
+		1E1EB25A17389A3000A5118F /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB25917389A3000A5118F /* ThreeViewController.m */; };
+		1E1EB25D1738A88000A5118F /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB25C1738A88000A5118F /* ContentViewController.m */; };
+		1E1EB2641738AFB800A5118F /* LeftSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB2631738AFB800A5118F /* LeftSplitViewController.m */; };
+		1E1EB2671738AFC900A5118F /* RightSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB2661738AFC900A5118F /* RightSplitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,20 @@
 		1E1EB238173894F500A5118F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1E1EB23A173894F500A5118F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1E1EB23C173894F500A5118F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1E1EB2431738986F00A5118F /* SplitViewContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewContainerController.h; sourceTree = "<group>"; };
+		1E1EB2441738986F00A5118F /* SplitViewContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewContainerController.m; sourceTree = "<group>"; };
+		1E1EB25217389A1400A5118F /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		1E1EB25317389A1400A5118F /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		1E1EB25517389A2200A5118F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		1E1EB25617389A2200A5118F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		1E1EB25817389A3000A5118F /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		1E1EB25917389A3000A5118F /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		1E1EB25B1738A88000A5118F /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		1E1EB25C1738A88000A5118F /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		1E1EB2621738AFB700A5118F /* LeftSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSplitViewController.h; sourceTree = "<group>"; };
+		1E1EB2631738AFB800A5118F /* LeftSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSplitViewController.m; sourceTree = "<group>"; };
+		1E1EB2651738AFC900A5118F /* RightSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSplitViewController.h; sourceTree = "<group>"; };
+		1E1EB2661738AFC900A5118F /* RightSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSplitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +101,13 @@
 			children = (
 				1E1EB235173894F500A5118F /* AppDelegate.h */,
 				1E1EB236173894F500A5118F /* AppDelegate.m */,
+				1E1EB2431738986F00A5118F /* SplitViewContainerController.h */,
+				1E1EB2441738986F00A5118F /* SplitViewContainerController.m */,
+				1E1EB2621738AFB700A5118F /* LeftSplitViewController.h */,
+				1E1EB2631738AFB800A5118F /* LeftSplitViewController.m */,
+				1E1EB2651738AFC900A5118F /* RightSplitViewController.h */,
+				1E1EB2661738AFC900A5118F /* RightSplitViewController.m */,
+				1E1EB25E1738A89B00A5118F /* ContentViewController */,
 				1E1EB22D173894F500A5118F /* Supporting Files */,
 			);
 			path = SplitViewContainer;
@@ -97,6 +125,21 @@
 				1E1EB23C173894F500A5118F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E1EB25E1738A89B00A5118F /* ContentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E1EB25B1738A88000A5118F /* ContentViewController.h */,
+				1E1EB25C1738A88000A5118F /* ContentViewController.m */,
+				1E1EB25217389A1400A5118F /* OneViewController.h */,
+				1E1EB25317389A1400A5118F /* OneViewController.m */,
+				1E1EB25517389A2200A5118F /* TwoViewController.h */,
+				1E1EB25617389A2200A5118F /* TwoViewController.m */,
+				1E1EB25817389A3000A5118F /* ThreeViewController.h */,
+				1E1EB25917389A3000A5118F /* ThreeViewController.m */,
+			);
+			name = ContentViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +209,13 @@
 			files = (
 				1E1EB233173894F500A5118F /* main.m in Sources */,
 				1E1EB237173894F500A5118F /* AppDelegate.m in Sources */,
+				1E1EB2451738986F00A5118F /* SplitViewContainerController.m in Sources */,
+				1E1EB25417389A1400A5118F /* OneViewController.m in Sources */,
+				1E1EB25717389A2200A5118F /* TwoViewController.m in Sources */,
+				1E1EB25A17389A3000A5118F /* ThreeViewController.m in Sources */,
+				1E1EB25D1738A88000A5118F /* ContentViewController.m in Sources */,
+				1E1EB2641738AFB800A5118F /* LeftSplitViewController.m in Sources */,
+				1E1EB2671738AFC900A5118F /* RightSplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SplitViewContainer/SplitViewContainer-Prefix.pch";
 				INFOPLIST_FILE = "SplitViewContainer/SplitViewContainer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -258,6 +309,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SplitViewContainer/SplitViewContainer-Prefix.pch";
 				INFOPLIST_FILE = "SplitViewContainer/SplitViewContainer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

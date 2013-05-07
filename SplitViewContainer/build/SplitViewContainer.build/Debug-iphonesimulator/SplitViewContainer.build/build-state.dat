@@ -1,0 +1,614 @@
+TSplitViewContainer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Info.plist SplitViewContainer/SplitViewContainer-Info.plist
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.pth SplitViewContainer/SplitViewContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer normal i386
+cGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer
+cCpResource SplitViewContainer/Default.png build/Debug-iphonesimulator/SplitViewContainer.app/Default.png
+cCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/en.lproj/InfoPlist.strings SplitViewContainer/en.lproj/InfoPlist.strings
+cCpResource SplitViewContainer/Default@2x.png build/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png
+cCpResource SplitViewContainer/Default-568h@2x.png build/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png
+cTouch /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/LeftViewController.m
+c00000000518861F200000000000002D2
+t1367892466
+s722
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/../LeftViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.h
+c0000000051887737000000000000019B
+t1367897911
+s411
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m
+c0000000051887F4F0000000000000BFE
+t1367899983
+s3070
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/CenterViewController.m
+c00000000518861E200000000000002DA
+t1367892450
+s730
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.h
+c000000005188712000000000000000EB
+t1367896352
+s235
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m
+c0000000051889A1A0000000000000DEC
+t1367906842
+s3564
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.h
+c000000005188783700000000000000EF
+t1367898167
+s239
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m
+c0000000051887CA500000000000002E9
+t1367899301
+s745
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftViewController.m
+c00000000518861F200000000000002D2
+t1367892466
+s722
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LiftSplitViewController.m
+c000000005188781100000000000002E6
+t1367898129
+s742
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.h
+c000000005188714D000000000000010B
+t1367896397
+s267
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m
+c0000000051887C9C00000000000002CE
+t1367899292
+s718
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.h
+c000000005188784900000000000000F1
+t1367898185
+s241
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m
+c0000000051887E3100000000000002EC
+t1367899697
+s748
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightViewController.m
+c000000005188622500000000000002D6
+t1367892517
+s726
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SlitViewContainerController.m
+c00000000518861C20000000000000322
+t1367892418
+s802
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainer-Prefix.pch
+c0000000051885D750000000000000153
+t1367891317
+s339
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.h
+c0000000051887090000000000000032F
+t1367896208
+s815
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m
+c00000000518890CD000000000000081A
+t1367904461
+s2074
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.h
+c000000005188717A000000000000010E
+t1367896442
+s270
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m
+c00000000518862AF00000000000002D6
+t1367892655
+s726
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.h
+c0000000051887165000000000000010B
+t1367896421
+s267
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m
+c00000000518862A200000000000002CE
+t1367892642
+s718
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/en.lproj/InfoPlist.strings
+c0000000051885D75000000000000002D
+t1367891317
+s45
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m
+c0000000051885D750000000000000156
+t1367891317
+s342
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app
+t1367906816
+s306
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM
+t1367906816
+s102
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png
+t1367899916
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Default.png
+t1367899916
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png
+t1367899916
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Info.plist
+t1367899913
+s939
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/PkgInfo
+t1367899913
+s8
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer
+t1367906816
+s61020
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/en.lproj/InfoPlist.strings
+t1367899916
+s42
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.o
+t1367899988
+s91832
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/CenterViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.o
+t1367906816
+s92640
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.o
+t1367899915
+s69412
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController-88E6EC99D6231D54.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController-D31282F542C6F352.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LiftSplitViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.o
+t1367899915
+s69436
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.o
+t1367899915
+s69428
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SlitViewContainerController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainer.LinkFileList
+c0000000051887F090000000000000695
+t1367899913
+s1685
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.o
+t1367904608
+s80268
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.o
+t1367899915
+s68908
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.o
+t1367899915
+s68868
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.o
+t1367899915
+s3388
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-bunngtfqhbupkvbazsxwybrmttmv/SplitViewContainer-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.pth
+t1367899914
+s4675588
+
+NSplitViewContainer/SplitViewContainer-Info.plist
+c0000000051885D7500000000000005AE
+t1367891317
+s1454
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/LeftViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/../LeftViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/CenterViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LiftSplitViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SlitViewContainerController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesda73c99bd138b741^aca8c99bd138b741^---0#1#0#--18"Check dependencies36"AC73F920-FA9D-4A32-A506-F7068CC74D2A-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592788.890798
+e389592788.946200
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m1e33e4d4b638b741^9339f2d4b638b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m0000000000000000^4118"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.o SplitViewContainer/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/AppDelegate.o36"029BE37F-914E-4791-9EF5-EE2569A43CBB-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/CenterViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/CenterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389599643.809312
+e389599643.885450
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m355dcf9bd138b741^54ace29bd138b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m0000000000000000^4178"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.o SplitViewContainer/ContentViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ContentViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ContentViewController.o36"EAC21487-F37E-4068-B4C9-AEA37FFEDCA1-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592715.252891
+e389592715.811204
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m4819418bb638b741^4bb1cf8bb638b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m0000000000000000^4190"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.o SplitViewContainer/LeftSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftSplitViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftSplitViewController.o36"00F392FD-684A-42E9-B883-5E8C41C20D35-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController-88E6EC99D6231D54.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController-D31282F542C6F352.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/../LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/../LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LeftViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/LiftSplitViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/LiftSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592715.252770
+e389592715.811568
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.md410418bb638b741^b9c2cf8bb638b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m0000000000000000^4154"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.o SplitViewContainer/OneViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/OneViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/OneViewController.o36"362CF7FC-75CB-4D46-9A7F-BC2320CDFD05-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592715.775714
+e389592715.855568
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.mb6d7c68bb638b741^8e07db8bb638b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m0000000000000000^4196"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.o SplitViewContainer/RightSplitViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightSplitViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightSplitViewController.o36"DB7925A3-99D1-44BB-BDAE-BCA52753E47E-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/RightViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SlitViewContainerController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SlitViewContainerController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389597408.898785
+e389597408.953381
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.mac3be6e0c838b741^3010f4e0c838b741^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m0000000000000000^4220"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.o SplitViewContainer/SplitViewContainerController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainerController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainerController.o36"94A21B50-3CFE-4F8F-AB5D-8F457F5706AE-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592715.252805
+e389592715.811072
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.mb70b418bb638b741^f8a4cf8bb638b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m0000000000000000^4166"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.o SplitViewContainer/ThreeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/ThreeViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/ThreeViewController.o36"8D1D27B9-B470-4D70-A2D6-70795D1846DA-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592715.252796
+e389592715.775016
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.mb916418bb638b741^e069c68bb638b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m0000000000000000^4154"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.o SplitViewContainer/TwoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/TwoViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/TwoViewController.o36"42D2CE45-7A44-48F8-AB84-89812E1DB24B-
+
+CCompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592715.251958
+e389592715.774299
+r1
+xCompileC
+xbuild/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m6bd7408bb638b741^cd3bc68bb638b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m0000000000000000^4076"CompileC build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.o SplitViewContainer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/main.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/main.o36"4F59E09B-4274-47A0-9C60-CBD9A477881C-
+
+CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/en.lproj/InfoPlist.strings SplitViewContainer/en.lproj/InfoPlist.strings
+s389592716.658322
+e389592716.662438
+r1
+xCopyStringsFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/en.lproj/InfoPlist.strings
+xSplitViewContainer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy SplitViewContainer/en.lproj/InfoPlist.strings529ba88cb638b741^1096a98cb638b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/en.lproj/InfoPlist.strings0000000000000000^677"CopyStringsFile build/Debug-iphonesimulator/SplitViewContainer.app/en.lproj/InfoPlist.strings SplitViewContainer/en.lproj/InfoPlist.strings    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/en.lproj -- SplitViewContainer/en.lproj/InfoPlist.strings36"12E6638B-FF4E-4741-817B-1C8E446D6B8D-
+
+CCpResource SplitViewContainer/Default-568h@2x.png build/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png
+s389592716.658811
+e389592716.664640
+r1
+xCpResource
+xSplitViewContainer/Default-568h@2x.png
+xbuild/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png2cb7a88cb638b741^8126aa8cb638b741^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png000000000080d041^735"CpResource "SplitViewContainer/Default-568h@2x.png" "build/Debug-iphonesimulator/SplitViewContainer.app/Default-568h@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/Default-568h@2x.png" /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app36"0BF40438-1398-4EDF-8438-D0124AB97661-
+
+CCpResource SplitViewContainer/Default.png build/Debug-iphonesimulator/SplitViewContainer.app/Default.png
+s389592716.658373
+e389592716.663079
+r1
+xCpResource
+xSplitViewContainer/Default.png
+xbuild/Debug-iphonesimulator/SplitViewContainer.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphonesimulator/SplitViewContainer.app/Default.png209ba88cb638b741^01c0a98cb638b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Default.png000000000080d041^705"CpResource SplitViewContainer/Default.png build/Debug-iphonesimulator/SplitViewContainer.app/Default.png    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/Default.png /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app36"9FCAEA2E-24A1-45A5-B2D4-0839F008CB14-
+
+CCpResource SplitViewContainer/Default@2x.png build/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png
+s389592716.658403
+e389592716.661501
+r1
+xCpResource
+xSplitViewContainer/Default@2x.png
+xbuild/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png289da88cb638b741^8159a98cb638b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png000000000080d041^720"CpResource "SplitViewContainer/Default@2x.png" "build/Debug-iphonesimulator/SplitViewContainer.app/Default@2x.png"    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/Default@2x.png" /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app36"038655F5-D788-4A65-AF03-F4D5009D9B52-
+
+CGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer
+s389599643.924788
+e389599643.955120
+r1
+xGenerateDSYMFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Generate /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM03d0ec9bd138b741^ae82f49bd138b741^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM/0000000000000000^778"GenerateDSYMFile build/Debug-iphonesimulator/SplitViewContainer.app.dSYM build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app.dSYM36"1FAEE7D9-01EE-4EAD-AD22-B388A2E254E8-
+
+CLd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer normal i386
+s389599643.891946
+e389599643.916200
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer1a6ae49bd138b741^f48bea9bd138b741^---0#0#0#--1369"Ld build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer normal i386    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator -filelist /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/Objects-normal/i386/SplitViewContainer.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/SplitViewContainer36"5A1FF0B1-48D9-418B-A92D-3B666FCFAAF6-
+
+CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Info.plist SplitViewContainer/SplitViewContainer-Info.plist
+s389592713.972354
+e389592713.976400
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Info.plist
+xSplitViewContainer/SplitViewContainer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Process SplitViewContainer/SplitViewContainer-Info.plist11fff889b638b741^bef5f989b638b741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainer-Info.plist0000000000000000^814"ProcessInfoPlistFile build/Debug-iphonesimulator/SplitViewContainer.app/Info.plist SplitViewContainer/SplitViewContainer-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SplitViewContainer/SplitViewContainer-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app/Info.plist36"901DB2AB-7746-44C5-9FE7-23E55278ECEA-
+
+CProcessPCH /Users/harikunwar/Library/Developer/Xcode/DerivedData/SplitViewContainer-azaijlecoxtrdgezlfqyqsizjwyu/Index/PrecompiledHeaders/SplitViewContainer-Prefix-dnluxtqqkquzdwazvyubhmrmoqww_ast/SplitViewContainer-Prefix.pch.pth SplitViewContainer/SplitViewContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/harikunwar/Library/Developer/Xcode/DerivedData/SplitViewContainer-azaijlecoxtrdgezlfqyqsizjwyu/Index/PrecompiledHeaders/SplitViewContainer-Prefix-etzktneldaqjtydhraspzndwvfwa_ast/SplitViewContainer-Prefix.pch.pth SplitViewContainer/SplitViewContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-bunngtfqhbupkvbazsxwybrmttmv/SplitViewContainer-Prefix.pch.pth SplitViewContainer/SplitViewContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.pth SplitViewContainer/SplitViewContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s389592713.985524
+e389592715.244586
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.pth
+xSplitViewContainer/SplitViewContainer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile SplitViewContainer/SplitViewContainer-Prefix.pchb96cfc89b638b741^02a03e8bb638b741^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainer-Prefix.pch0000000000000000^4047"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.pth SplitViewContainer/SplitViewContainer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/SplitViewContainer-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/SplitViewContainer.build/Debug-iphonesimulator/SplitViewContainer.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/SplitViewContainer/SplitViewContainer-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SplitViewContainer-Prefix-evfwddwubhehwhfyesuznmhilwto/SplitViewContainer-Prefix.pch.d36"402B23D9-E1FE-461C-887F-95335AF3EC67-
+
+CTouch /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app
+s389599643.973407
+e389599643.978079
+r1
+xTouch
+x/Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Touch /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.appf23ff99bd138b741^ed66fa9bd138b741^---0#0#0#--468"Touch build/Debug-iphonesimulator/SplitViewContainer.app    cd /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harikunwar/Documents/GitHub/iOSContainers/SplitViewContainer/build/Debug-iphonesimulator/SplitViewContainer.app36"0ECEE706-1D1E-4390-987E-93312E56643E-
+

@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SplitViewContainerController.h"
+#import "LeftSplitViewController.h"
+#import "RightSplitViewController.h"
+#import "OneViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +20,18 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    LeftSplitViewController *leftSplitViewController = [[LeftSplitViewController alloc] init];
+    RightSplitViewController *rightSplitViewController = [[RightSplitViewController alloc] init];
+    OneViewController *oneViewController = [[OneViewController alloc] init];
+    
+    _splitViewContainerController = [[SplitViewContainerController alloc] initWithContentViewController:oneViewController
+                                                                                leftSplitViewController:leftSplitViewController
+                                                                               rightSplitViewController:rightSplitViewController];
+    
+    self.window.rootViewController = _splitViewContainerController;
+    
+    
     return YES;
 }
 
