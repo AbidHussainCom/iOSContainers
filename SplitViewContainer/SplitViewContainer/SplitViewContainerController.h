@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class ContentViewController;
+
 @interface SplitViewContainerController : UIViewController
 
-@property (nonatomic, strong) UIViewController *contentViewController;
+@property (nonatomic, strong) ContentViewController *contentViewController;
 @property (nonatomic, strong) UIViewController *leftSplitViewController;
 @property (nonatomic, strong) UIViewController *rightSplitViewController;
 

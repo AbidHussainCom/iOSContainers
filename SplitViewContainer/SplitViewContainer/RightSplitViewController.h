@@ -10,4 +10,6 @@
 
 @interface RightSplitViewController : UIViewController
 
+@property (nonatomic, assign) CGFloat viewEdgeOffset;
+
 @end

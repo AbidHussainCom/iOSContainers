@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "SplitViewContainer/ContentViewController.m"
-         timestampString = "389599546.143432"
+         timestampString = "389683558.332032"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "50"
-         endingLineNumber = "50"
+         startingLineNumber = "49"
+         endingLineNumber = "49"
          landmarkName = "-panContentView:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -20,26 +20,39 @@
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "SplitViewContainer/ContentViewController.m"
-         timestampString = "389599617.114862"
+         filePath = "SplitViewContainer/SplitViewContainerController.m"
+         timestampString = "389683558.332032"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "139"
-         endingLineNumber = "139"
-         landmarkName = "-gestureRecognizerShouldBegin:"
+         startingLineNumber = "104"
+         endingLineNumber = "104"
+         landmarkName = "-willSlideFromPosition:toPosition:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "SplitViewContainer/ContentViewController.m"
-         timestampString = "389599617.114862"
+         filePath = "SplitViewContainer/LeftSplitViewController.m"
+         timestampString = "389683158.976702"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "144"
-         endingLineNumber = "144"
-         landmarkName = "-gestureRecognizer:shouldReceiveTouch:"
+         startingLineNumber = "31"
+         endingLineNumber = "31"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "SplitViewContainer/SplitViewContainerController.m"
+         timestampString = "389683558.332032"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "42"
+         endingLineNumber = "42"
+         landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

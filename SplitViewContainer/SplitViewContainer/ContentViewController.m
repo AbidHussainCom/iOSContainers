@@ -9,7 +9,6 @@
 #import "ContentViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
-#define EDGE_OFFSET 80.0f
 
 @interface ContentViewController ()<UIGestureRecognizerDelegate>
 
@@ -52,59 +51,97 @@
     UIView *contentView = [gesture view];
     
     UIGestureRecognizerState state = [gesture state];
-        
+    
+    CGPoint velocity = [gesture velocityInView:self.view];
+
     if(state == UIGestureRecognizerStateBegan){
         _gestureStartPoint = contentView.center;
     }
     
     CGPoint translatedPoint = [sender translationInView:self.view];
     translatedPoint = CGPointMake(_gestureStartPoint.x + translatedPoint.x, _gestureStartPoint.y);
-    contentView.center = translatedPoint;
-    
-    CGPoint velocity = [gesture velocityInView:self.view];
+
+    //Hide/Show Left/Right SplitViewControllers
+    BOOL viewMovingFromCenter = !_viewOnEdge;
+    if(viewMovingFromCenter){
+        BOOL panningRight = translatedPoint.x > _gestureStartPoint.x ? YES : NO;
+        
+        if(panningRight){
+            if([_delegate respondsToSelector:@selector(willSlideFromPosition:toPosition:)]){
+                [_delegate willSlideFromPosition:Center toPosition:RightEdge];
+            }
+        }
+        else{
+            if([_delegate respondsToSelector:@selector(willSlideFromPosition:toPosition:)]){
+                [_delegate willSlideFromPosition:Center toPosition:LeftEdge];
+            }
+        }
+    }
+
+    //Block view from panning outside bounds
+    BOOL panningInsideBounds = [self panningInsideBoundsWithTranslatedPoint:(CGPoint)translatedPoint];
+    if(panningInsideBounds)
+        contentView.center = translatedPoint;
     
     if(state == UIGestureRecognizerStateEnded){
         BOOL slideRight = velocity.x > 0 ? YES : NO;
         
-        if(slideRight){
-            [self slideRight];
+        CGRect frame;
+        //Animate view to final position
+        if(_viewOnEdge){
+            frame = [self centerFrame];
+        }
+        else if(slideRight){
+            frame = [self rightFrame];
         }
         else{
-            [self slideLeft];
+            frame = [self leftFrame];
         }
+        
+        [self slideToFrame:frame animated:YES];
         _viewOnEdge = !_viewOnEdge;
     }
     
 }
 
-- (void)slideRight
-{
-    CGRect frame =  _viewOnEdge ? [self centerFrame] : [self rightFrame];
-    [self animateToFrame:frame];
-}
 
-- (void)slideLeft
+- (void)slideToFrame:(CGRect)frame animated:(BOOL)animated
 {
-    CGRect frame =  _viewOnEdge ?  [self centerFrame] : [self leftFrame];
-    [self animateToFrame:frame];
-}
-
-- (void)animateToFrame:(CGRect)frame
-{
-    void (^animation) (void) = ^(void){
+    if(animated){
+        void (^animation) (void) = ^(void){
+            self.view.frame = frame;
+        };
+        void (^completion) (BOOL finished) = ^ (BOOL finished) {};
+        
+        [UIView animateWithDuration:0.5f delay:0.0f options:UIViewAnimationOptionCurveEaseOut animations:animation completion:completion];
+    }
+    else{
         self.view.frame = frame;
-    };
-    void (^completion) (BOOL finished) = ^ (BOOL finished) {};
+    }
+}
+
+- (BOOL)panningInsideBoundsWithTranslatedPoint:(CGPoint)translatedPoint
+{
+    BOOL panningInsideBounds = YES;
     
-    [UIView animateWithDuration:0.5f delay:0.0f options:UIViewAnimationOptionCurveEaseIn animations:animation completion:completion];
+    CGFloat maxX =  CGRectGetMidX([self rightFrame]);
+    CGFloat minX = CGRectGetMidX([self leftFrame]);
+    
+    NSLog(@"%f", translatedPoint.x);
+    
+    if(translatedPoint.x > maxX || translatedPoint.x < minX){
+        panningInsideBounds = NO;
+    }
+    
+    return panningInsideBounds;
 }
 
 
 #pragma mark - Frames
 - (CGRect)leftFrame
 {
-    CGFloat width = CGRectGetWidth(self.view.frame);
-    CGFloat height = CGRectGetHeight(self.view.frame);
+    CGFloat width = CGRectGetWidth(self.view.bounds);
+    CGFloat height = CGRectGetHeight(self.view.bounds);
     CGFloat x =  EDGE_OFFSET - width;
     CGFloat y = 0.0f;
     
@@ -113,8 +150,8 @@
 
 - (CGRect)rightFrame
 {
-    CGFloat width = CGRectGetWidth(self.view.frame);
-    CGFloat height = CGRectGetHeight(self.view.frame);
+    CGFloat width = CGRectGetWidth(self.view.bounds);
+    CGFloat height = CGRectGetHeight(self.view.bounds);
     CGFloat x = width - EDGE_OFFSET;
     CGFloat y = 0.0f;
     
@@ -136,7 +173,26 @@
 
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
-    return YES;
+    BOOL gestureRecognizerShouldBegin = YES;
+    
+    CGPoint velocity = [(UIPanGestureRecognizer *)gestureRecognizer velocityInView:self.view];
+    UIView *view = [gestureRecognizer view];
+    
+    if(_viewOnEdge){
+        BOOL contentViewOnRightEdge = view.center.x > _gestureStartPoint.x;
+        BOOL slidingRight = velocity.x > 0;
+        
+        BOOL contentViewOnLeftEdge = view.center.x < _gestureStartPoint.x;
+        BOOL slidingLeft = velocity.x < 0;
+        
+        if(contentViewOnRightEdge && slidingRight)
+            gestureRecognizerShouldBegin = NO;
+        
+        if(contentViewOnLeftEdge && slidingLeft)
+            gestureRecognizerShouldBegin = NO;
+    }
+    
+    return gestureRecognizerShouldBegin;
 }
 
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch

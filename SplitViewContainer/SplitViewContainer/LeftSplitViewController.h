@@ -10,4 +10,6 @@
 
 @interface LeftSplitViewController : UIViewController
 
+@property (nonatomic, assign) CGFloat viewEdgeOffset;
+
 @end
