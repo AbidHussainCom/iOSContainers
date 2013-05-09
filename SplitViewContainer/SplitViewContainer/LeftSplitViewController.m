@@ -7,6 +7,11 @@
 //
 
 #import "LeftSplitViewController.h"
+#import "ContentViewController.h"
+#import "OneViewController.h"
+#import "TwoViewController.h"
+#import "ThreeViewController.h"
+#import "FourViewController.h"
 
 @interface LeftSplitViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -51,11 +56,19 @@
 
 #pragma mark - UITableViewDelegate
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if([_delegate respondsToSelector:@selector(splitViewController:pushViewController:animated:)]){
+        ContentViewController *viewController  = [self viewControllerWithIndexPath:indexPath];
+        [_delegate splitViewController:self pushViewController:viewController animated:YES];
+    }
+}
+
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -68,10 +81,37 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"ViewController %d", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"ViewController %d", indexPath.row + 1];
     
     return cell;
 }
 
+#pragma mark - ContentViewController
+
+- (ContentViewController *)viewControllerWithIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    
+    ContentViewController *viewController = nil;
+    
+    switch(row){
+        case 0:
+            viewController = [[OneViewController alloc] init];
+            break;
+        case 1:
+            viewController = [[TwoViewController alloc] init];
+            break;
+        case 2:
+            viewController = [[ThreeViewController alloc] init];
+            break;
+        case 3:
+            viewController = [[FourViewController alloc] init];
+            break;
+        default:
+            break;
+    }
+    
+    return viewController;
+}
 
 @end

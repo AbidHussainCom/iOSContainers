@@ -13,7 +13,6 @@
 @interface ContentViewController ()<UIGestureRecognizerDelegate>
 
 @property (nonatomic, assign) CGPoint gestureStartPoint;
-@property (nonatomic, assign) BOOL viewOnEdge;
 
 @end
 
@@ -42,7 +41,7 @@
     [super didReceiveMemoryWarning];
 }
 
-#pragma mark - Pan
+#pragma mark - Pan/Slide
 
 - (void)panContentView:(id)sender
 {
@@ -104,6 +103,15 @@
     
 }
 
+#pragma mark - Slide
+- (void)slideViewToCenterAnimated:(BOOL)animated
+{
+    CGRect frame = [self centerFrame];
+    [self slideToFrame:frame animated:animated];
+    _viewOnEdge = NO;
+}
+
+
 
 - (void)slideToFrame:(CGRect)frame animated:(BOOL)animated
 {
@@ -113,7 +121,7 @@
         };
         void (^completion) (BOOL finished) = ^ (BOOL finished) {};
         
-        [UIView animateWithDuration:0.5f delay:0.0f options:UIViewAnimationOptionCurveEaseOut animations:animation completion:completion];
+        [UIView animateWithDuration:0.2f delay:0.0f options:UIViewAnimationOptionCurveEaseOut animations:animation completion:completion];
     }
     else{
         self.view.frame = frame;

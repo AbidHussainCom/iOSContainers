@@ -32,5 +32,8 @@ typedef enum{
 
 @property (nonatomic, assign) id<ContentViewDelegate> delegate;
 @property (nonatomic, assign) CGFloat viewEdgeOffset;
+@property (nonatomic, assign) BOOL viewOnEdge;
+
+- (void)slideViewToCenterAnimated:(BOOL)animated;
 
 @end

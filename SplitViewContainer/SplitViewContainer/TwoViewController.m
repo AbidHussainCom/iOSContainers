@@ -27,12 +27,33 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor cyanColor];
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.text = @"TwoViewController";
+    label.textColor = [UIColor blackColor];
+    label.frame = [self labelFrame];
+    label.textAlignment = UITextAlignmentCenter;
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - frame
+
+- (CGRect)labelFrame
+{
+    CGFloat width = CGRectGetWidth(self.view.bounds);
+    CGFloat height = 100.0f;
+    CGFloat x = 0.0f;
+    CGFloat y = CGRectGetHeight(self.view.bounds)/2 - height/2;
+    
+    return CGRectMake(x, y, width, height);
 }
 
 @end

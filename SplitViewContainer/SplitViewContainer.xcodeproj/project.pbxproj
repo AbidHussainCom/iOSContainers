@@ -23,6 +23,7 @@
 		1E1EB25D1738A88000A5118F /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB25C1738A88000A5118F /* ContentViewController.m */; };
 		1E1EB2641738AFB800A5118F /* LeftSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB2631738AFB800A5118F /* LeftSplitViewController.m */; };
 		1E1EB2671738AFC900A5118F /* RightSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB2661738AFC900A5118F /* RightSplitViewController.m */; };
+		1E1EB74F173B5CE500A5118F /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1EB74E173B5CE400A5118F /* FourViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,9 @@
 		1E1EB2631738AFB800A5118F /* LeftSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSplitViewController.m; sourceTree = "<group>"; };
 		1E1EB2651738AFC900A5118F /* RightSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSplitViewController.h; sourceTree = "<group>"; };
 		1E1EB2661738AFC900A5118F /* RightSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSplitViewController.m; sourceTree = "<group>"; };
+		1E1EB74A173B503500A5118F /* SplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewDelegate.h; sourceTree = "<group>"; };
+		1E1EB74D173B5CE400A5118F /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		1E1EB74E173B5CE400A5118F /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				1E1EB236173894F500A5118F /* AppDelegate.m */,
 				1E1EB2431738986F00A5118F /* SplitViewContainerController.h */,
 				1E1EB2441738986F00A5118F /* SplitViewContainerController.m */,
+				1E1EB74A173B503500A5118F /* SplitViewDelegate.h */,
 				1E1EB2621738AFB700A5118F /* LeftSplitViewController.h */,
 				1E1EB2631738AFB800A5118F /* LeftSplitViewController.m */,
 				1E1EB2651738AFC900A5118F /* RightSplitViewController.h */,
@@ -138,6 +143,8 @@
 				1E1EB25617389A2200A5118F /* TwoViewController.m */,
 				1E1EB25817389A3000A5118F /* ThreeViewController.h */,
 				1E1EB25917389A3000A5118F /* ThreeViewController.m */,
+				1E1EB74D173B5CE400A5118F /* FourViewController.h */,
+				1E1EB74E173B5CE400A5118F /* FourViewController.m */,
 			);
 			name = ContentViewController;
 			sourceTree = "<group>";
@@ -216,6 +223,7 @@
 				1E1EB25D1738A88000A5118F /* ContentViewController.m in Sources */,
 				1E1EB2641738AFB800A5118F /* LeftSplitViewController.m in Sources */,
 				1E1EB2671738AFC900A5118F /* RightSplitViewController.m in Sources */,
+				1E1EB74F173B5CE500A5118F /* FourViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +342,7 @@
 				1E1EB242173894F500A5118F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

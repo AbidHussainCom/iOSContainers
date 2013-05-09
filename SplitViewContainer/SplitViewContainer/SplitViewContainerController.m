@@ -7,9 +7,12 @@
 //
 
 #import "SplitViewContainerController.h"
+#import "SplitViewDelegate.h"
 #import "ContentViewController.h"
+#import "LeftSplitViewController.h"
+#import "RightSplitViewController.h"
 
-@interface SplitViewContainerController () <ContentViewDelegate>
+@interface SplitViewContainerController () <ContentViewDelegate, SplitViewDelegate>
 
 @property (nonatomic, strong) UIView *titleBar;
 
@@ -18,8 +21,8 @@
 @implementation SplitViewContainerController
 
 - (id)initWithContentViewController:(ContentViewController *)contentViewController
-              leftSplitViewController:(UIViewController *)leftSplitViewController
-             rightSplitViewController:(UIViewController *)rightSplitViewController
+              leftSplitViewController:(LeftSplitViewController *)leftSplitViewController
+             rightSplitViewController:(RightSplitViewController *)rightSplitViewController
 {
     self = [super init];
     
@@ -42,12 +45,14 @@
         [self addChildViewController:_leftSplitViewController];
         [self.view addSubview:_leftSplitViewController.view];
         _leftSplitViewController.view.frame = [self leftSplitViewFrame];
+        _leftSplitViewController.delegate = self;
     }
     
     if(_rightSplitViewController != nil){
         [self addChildViewController:_rightSplitViewController];
         [self.view addSubview:_rightSplitViewController.view];
         _rightSplitViewController.view.frame = [self rightSplitViewFrame];
+        _rightSplitViewController.delegate = self;
     }
     
     if(_contentViewController != nil){
@@ -63,6 +68,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - Rotation
+
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+
 
 #pragma mark - Frames
 
@@ -119,6 +139,26 @@
 {
     
 }
+
+
+#pragma mark - SplitViewDelegate
+
+- (void)splitViewController:(UIViewController *)splitViewController pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    viewController.view.frame = _contentViewController.view.frame;
+
+    [_contentViewController.view removeFromSuperview];
+    [_contentViewController removeFromParentViewController];
+    
+    _contentViewController = (ContentViewController *)viewController;
+    [self addChildViewController:_contentViewController];
+    [self.view addSubview:_contentViewController.view];
+    _contentViewController.viewOnEdge = YES;
+    _contentViewController.delegate = self;
+
+    [_contentViewController slideViewToCenterAnimated:YES];
+}
+
 
 
 @end

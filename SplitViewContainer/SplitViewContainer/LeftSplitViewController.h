@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SplitViewDelegate.h"
 
 @interface LeftSplitViewController : UIViewController
 
+@property (nonatomic, assign) id<SplitViewDelegate>delegate;
 @property (nonatomic, assign) CGFloat viewEdgeOffset;
 
 @end
