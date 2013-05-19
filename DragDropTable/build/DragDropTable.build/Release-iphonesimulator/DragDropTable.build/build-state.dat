@@ -1,0 +1,282 @@
+TDragDropTable
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Info.plist DragDropTable/DragDropTable-Info.plist
+cProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.pth DragDropTable/DragDropTable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000512FB99A0000000000228FE0
+t1362082202
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000512FB99B00000000003DDFA0
+t1362082203
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000512FB99B00000000000015F7
+t1362082203
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000512FB99E0000000000000E8D
+t1362082206
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000512FB99F0000000000AB6230
+t1362082207
+s11231792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c00000000512FB9AE0000000000001B73
+t1362082222
+s7027
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m
+c000000005197B0A10000000000000882
+t1368895649
+s2178
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m
+c000000005197B4E50000000000000214
+t1368896741
+s532
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m
+c000000005197BD3900000000000002B8
+t1368898873
+s696
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DragDropTable-Prefix.pch
+c000000005197B0A10000000000000149
+t1368895649
+s329
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/en.lproj/InfoPlist.strings
+c000000005197B0A1000000000000002D
+t1368895649
+s45
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m
+c000000005197B0A10000000000000152
+t1368895649
+s338
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DragDropTable.LinkFileList
+c000000005197F0A600000000000002A3
+t1368912038
+s675
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app.dSYM
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Default.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Default@2x.png
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Info.plist
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/PkgInfo
+t2
+s0
+
+N/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.pth
+t2
+s0
+
+NDragDropTable/DragDropTable-Info.plist
+c000000005197B0A100000000000005AE
+t1368895649
+s1454
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m
+r0
+
+CBuild AST from /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb24bf0252848b741^554b32262848b741^---0#1#0#--18"Check dependencies36"B59AFC53-A486-4D4F-BD50-1EBAEAE38A32-
+
+CCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390604841.164470
+e390604841.452807
+r1
+xCompileC
+xbuild/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m58372a292848b741^70ea73292848b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m0000000000000000^3971"CompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.o DragDropTable/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/AppDelegate.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/AppDelegate.o36"460020AA-36EF-44B5-9ADE-4B5E42A57BD6-
+
+CCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390604841.164481
+e390604841.455795
+r1
+xCompileC
+xbuild/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m26372a292848b741^1daf74292848b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m0000000000000000^3995"CompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.o DragDropTable/DDTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewCell.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewCell.o36"C20D9F8C-23FC-4FBD-8802-0D6ED765A1FB-
+
+CCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390604841.164488
+e390604841.454504
+r1
+xCompileC
+xbuild/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m54382a292848b741^a75974292848b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m0000000000000000^4031"CompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.o DragDropTable/DDTableViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DDTableViewController.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DDTableViewController.o36"548DED11-018C-4BC4-B6DA-00A06D6413E6-
+
+CCompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390604841.164282
+e390604841.440656
+r1
+xCompileC
+xbuild/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.o
+x/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m98302a292848b741^63d170292848b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m0000000000000000^3929"CompileC build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.o DragDropTable/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch -MMD -MT dependencies -MF /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/main.m -o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/main.o36"0075A695-D909-46B0-8598-E1C52FF06219-
+
+CCopyStringsFile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/en.lproj/InfoPlist.strings DragDropTable/en.lproj/InfoPlist.strings
+r0
+
+CCpResource DragDropTable/Default-568h@2x.png build/Release-iphonesimulator/DragDropTable.app/Default-568h@2x.png
+r0
+
+CCpResource DragDropTable/Default.png build/Release-iphonesimulator/DragDropTable.app/Default.png
+r0
+
+CCpResource DragDropTable/Default@2x.png build/Release-iphonesimulator/DragDropTable.app/Default@2x.png
+r0
+
+CGenerateDSYMFile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app.dSYM /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable
+r0
+
+CLd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable normal i386
+s390604841.462986
+e390604842.635983
+r1
+xLd
+x/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable309d76292848b741^a2d4a22a2848b741^---0#0#0#--1319"Ld build/Release-iphonesimulator/DragDropTable.app/DragDropTable normal i386    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -F/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -filelist /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/Objects-normal/i386/DragDropTable.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/DragDropTable36"1B6FBB7E-9347-4435-8885-645F048D0DD3-
+
+CProcessInfoPlistFile /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Info.plist DragDropTable/DragDropTable-Info.plist
+s390604838.203079
+e390604838.237031
+r1
+xProcessInfoPlistFile
+x/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Info.plist
+xDragDropTable/DragDropTable-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process DragDropTable/DragDropTable-Info.plist711c34262848b741^b00244262848b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DragDropTable-Info.plist0000000000000000^770"ProcessInfoPlistFile build/Release-iphonesimulator/DragDropTable.app/Info.plist DragDropTable/DragDropTable-Info.plist    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DragDropTable/DragDropTable-Info.plist -genpkginfo /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app/Info.plist36"753BE481-B47C-447F-9966-D2DDCB4F3DEF-
+
+CProcessPCH /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DerivedData/DragDropTable/Index/PrecompiledHeaders/DragDropTable-Prefix-egzsiwoyyscydybvtytfkwvjrrbg_ast/DragDropTable-Prefix.pch.pth DragDropTable/DragDropTable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.pth DragDropTable/DragDropTable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390604838.264176
+e390604841.156427
+r1
+xProcessPCH
+x/var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.pth
+xDragDropTable/DragDropTable-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile DragDropTable/DragDropTable-Prefix.pch18cc43262848b741^130b28292848b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DragDropTable-Prefix.pch0000000000000000^3907"ProcessPCH /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.pth DragDropTable/DragDropTable-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-generated-files.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-own-target-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-all-target-headers.hmap -iquote /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DragDropTable-project-headers.hmap -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources/i386 -I/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/DragDropTable.build/Release-iphonesimulator/DragDropTable.build/DerivedSources -F/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator -DNS_BLOCK_ASSERTIONS=1 --serialize-diagnostics /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.dia -c /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/DragDropTable/DragDropTable-Prefix.pch -o /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/2w/0wbmj8sj425dsyfv_b5nn9k00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/DragDropTable-Prefix-galhosawizvsrecwdwjvmnpilver/DragDropTable-Prefix.pch.d36"74AB0536-1947-497B-B369-60F1AFECB48F-
+
+CTouch /Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Release-iphonesimulator/DragDropTable.app
+r0
+

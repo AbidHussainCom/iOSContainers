@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/harikunwar/Documents/GitHub/iOSContainers</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2013-05-18T21:29:35Z</date>
+	<key>MissingFilePaths</key>
+	<array>
+		<string>/Users/harikunwar/Documents/GitHub/iOSContainers/DragDropTable/build/Debug-iphoneos/DragDropTable.app</string>
+	</array>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>
