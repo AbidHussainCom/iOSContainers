@@ -56,7 +56,14 @@
 
 - (DDTableViewCell *)DDTableView:(DDTableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DDTableViewCell *tableCell = [[DDTableViewCell alloc] init];
+
+    NSString *reuseIdentifier = @"tableCell";
+    
+    DDTableViewCell *tableCell = (DDTableViewCell *)[tableView dequeueReusableCellWithIdentifier:reuseIdentifier forIndexPath:indexPath];
+    
+    if(tableCell == nil){
+        tableCell = [[DDTableViewCell alloc] initWithStyle:DDTableViewCellStyleDefault reuseIdentifier:reuseIdentifier];
+    }
     
     tableCell.textLabel.text = [NSString stringWithFormat:@"section : %d row : %d", indexPath.section, indexPath.row];
     

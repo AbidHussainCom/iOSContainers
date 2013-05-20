@@ -33,4 +33,6 @@
 @property (nonatomic, assign) id<DDTableViewDelegate> delegate;
 @property (nonatomic, assign) id<DDTableViewDataSource> dataSource;
 
+- (id)dequeueReusableCellWithIdentifier:(NSString *)identifier forIndexPath:(NSIndexPath *)indexPath;
+
 @end

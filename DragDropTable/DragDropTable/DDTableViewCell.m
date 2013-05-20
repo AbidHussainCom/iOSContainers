@@ -8,14 +8,20 @@
 
 #import "DDTableViewCell.h"
 
+@interface DDTableViewCell ()
+
+
+@end
+
 @implementation DDTableViewCell
 
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithStyle:(DDTableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
-    self = [super initWithFrame:frame];
-    if (self) {
+    self = [super init];
+    if(self){
+        _reuseIdentifier = reuseIdentifier;
         _textLabel = [[UILabel alloc] init];
-        [self addSubview:_textLabel];        
+        [self addSubview:_textLabel];
     }
     return self;
 }
