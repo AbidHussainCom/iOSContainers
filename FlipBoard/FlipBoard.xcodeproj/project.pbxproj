@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E87592B177F100100D37684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87592A177F100100D37684 /* Foundation.framework */; };
+		1E87592D177F100100D37684 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87592C177F100100D37684 /* CoreGraphics.framework */; };
+		1E87592F177F100100D37684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87592E177F100100D37684 /* UIKit.framework */; };
+		1E875935177F100100D37684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E875933177F100100D37684 /* InfoPlist.strings */; };
+		1E875937177F100100D37684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E875936177F100100D37684 /* main.m */; };
+		1E87593B177F100100D37684 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E87593A177F100100D37684 /* AppDelegate.m */; };
+		1E87593D177F100100D37684 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E87593C177F100100D37684 /* Images.xcassets */; };
+		1E875944177F100100D37684 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E875943177F100100D37684 /* XCTest.framework */; };
+		1E875945177F100100D37684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87592A177F100100D37684 /* Foundation.framework */; };
+		1E875946177F100100D37684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87592E177F100100D37684 /* UIKit.framework */; };
+		1E87594E177F100100D37684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E87594C177F100100D37684 /* InfoPlist.strings */; };
+		1E875950177F100100D37684 /* FlipBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E87594F177F100100D37684 /* FlipBoardTests.m */; };
+		1E87595B177F106500D37684 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E87595A177F106500D37684 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E875947177F100100D37684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E87591F177F100100D37684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E875926177F100100D37684;
+			remoteInfo = FlipBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E875927177F100100D37684 /* FlipBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E87592A177F100100D37684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E87592C177F100100D37684 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E87592E177F100100D37684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E875932177F100100D37684 /* FlipBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipBoard-Info.plist"; sourceTree = "<group>"; };
+		1E875934177F100100D37684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E875936177F100100D37684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E875938177F100100D37684 /* FlipBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlipBoard-Prefix.pch"; sourceTree = "<group>"; };
+		1E875939177F100100D37684 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E87593A177F100100D37684 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E87593C177F100100D37684 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E875942177F100100D37684 /* FlipBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E875943177F100100D37684 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1E87594B177F100100D37684 /* FlipBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipBoardTests-Info.plist"; sourceTree = "<group>"; };
+		1E87594D177F100100D37684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E87594F177F100100D37684 /* FlipBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipBoardTests.m; sourceTree = "<group>"; };
+		1E875959177F106500D37684 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Source/RootViewController.h; sourceTree = "<group>"; };
+		1E87595A177F106500D37684 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Source/RootViewController.m; sourceTree = "<group>"; };
+		1E87595E177F140D00D37684 /* FlipBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlipBoard.h; path = Source/FlipBoard.h; sourceTree = "<group>"; };
+		1E87595F177F140D00D37684 /* FlipBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlipBoard.m; path = Source/FlipBoard.m; sourceTree = "<group>"; };
+		1E875960177F163700D37684 /* FlipBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlipBoardViewController.h; path = Source/FlipBoardViewController.h; sourceTree = "<group>"; };
+		1E875961177F163700D37684 /* FlipBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlipBoardViewController.m; path = Source/FlipBoardViewController.m; sourceTree = "<group>"; };
+		1E875962177F186500D37684 /* StoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StoryView.h; path = Source/StoryView.h; sourceTree = "<group>"; };
+		1E875963177F186500D37684 /* StoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StoryView.m; path = Source/StoryView.m; sourceTree = "<group>"; };
+		1E875964177F188D00D37684 /* StoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StoryModel.h; path = Source/StoryModel.h; sourceTree = "<group>"; };
+		1E875965177F188D00D37684 /* StoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StoryModel.m; path = Source/StoryModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E875924177F100100D37684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E87592D177F100100D37684 /* CoreGraphics.framework in Frameworks */,
+				1E87592F177F100100D37684 /* UIKit.framework in Frameworks */,
+				1E87592B177F100100D37684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E87593F177F100100D37684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E875944177F100100D37684 /* XCTest.framework in Frameworks */,
+				1E875946177F100100D37684 /* UIKit.framework in Frameworks */,
+				1E875945177F100100D37684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E87591E177F100100D37684 = {
+			isa = PBXGroup;
+			children = (
+				1E875930177F100100D37684 /* FlipBoard */,
+				1E875949177F100100D37684 /* FlipBoardTests */,
+				1E875929177F100100D37684 /* Frameworks */,
+				1E875928177F100100D37684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E875928177F100100D37684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E875927177F100100D37684 /* FlipBoard.app */,
+				1E875942177F100100D37684 /* FlipBoardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E875929177F100100D37684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E87592A177F100100D37684 /* Foundation.framework */,
+				1E87592C177F100100D37684 /* CoreGraphics.framework */,
+				1E87592E177F100100D37684 /* UIKit.framework */,
+				1E875943177F100100D37684 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E875930177F100100D37684 /* FlipBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1E875939177F100100D37684 /* AppDelegate.h */,
+				1E87593A177F100100D37684 /* AppDelegate.m */,
+				1E875959177F106500D37684 /* RootViewController.h */,
+				1E87595A177F106500D37684 /* RootViewController.m */,
+				1E875960177F163700D37684 /* FlipBoardViewController.h */,
+				1E875961177F163700D37684 /* FlipBoardViewController.m */,
+				1E875962177F186500D37684 /* StoryView.h */,
+				1E875963177F186500D37684 /* StoryView.m */,
+				1E875964177F188D00D37684 /* StoryModel.h */,
+				1E875965177F188D00D37684 /* StoryModel.m */,
+				1E87595E177F140D00D37684 /* FlipBoard.h */,
+				1E87595F177F140D00D37684 /* FlipBoard.m */,
+				1E87593C177F100100D37684 /* Images.xcassets */,
+				1E875931177F100100D37684 /* Supporting Files */,
+			);
+			path = FlipBoard;
+			sourceTree = "<group>";
+		};
+		1E875931177F100100D37684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E875932177F100100D37684 /* FlipBoard-Info.plist */,
+				1E875933177F100100D37684 /* InfoPlist.strings */,
+				1E875936177F100100D37684 /* main.m */,
+				1E875938177F100100D37684 /* FlipBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E875949177F100100D37684 /* FlipBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E87594F177F100100D37684 /* FlipBoardTests.m */,
+				1E87594A177F100100D37684 /* Supporting Files */,
+			);
+			path = FlipBoardTests;
+			sourceTree = "<group>";
+		};
+		1E87594A177F100100D37684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E87594B177F100100D37684 /* FlipBoardTests-Info.plist */,
+				1E87594C177F100100D37684 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E875926177F100100D37684 /* FlipBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E875953177F100100D37684 /* Build configuration list for PBXNativeTarget "FlipBoard" */;
+			buildPhases = (
+				1E875923177F100100D37684 /* Sources */,
+				1E875924177F100100D37684 /* Frameworks */,
+				1E875925177F100100D37684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipBoard;
+			productName = FlipBoard;
+			productReference = 1E875927177F100100D37684 /* FlipBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E875941177F100100D37684 /* FlipBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E875956177F100100D37684 /* Build configuration list for PBXNativeTarget "FlipBoardTests" */;
+			buildPhases = (
+				1E87593E177F100100D37684 /* Sources */,
+				1E87593F177F100100D37684 /* Frameworks */,
+				1E875940177F100100D37684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E875948177F100100D37684 /* PBXTargetDependency */,
+			);
+			name = FlipBoardTests;
+			productName = FlipBoardTests;
+			productReference = 1E875942177F100100D37684 /* FlipBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E87591F177F100100D37684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = unknown;
+				TargetAttributes = {
+					1E875941177F100100D37684 = {
+						TestTargetID = 1E875926177F100100D37684;
+					};
+				};
+			};
+			buildConfigurationList = 1E875922177F100100D37684 /* Build configuration list for PBXProject "FlipBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E87591E177F100100D37684;
+			productRefGroup = 1E875928177F100100D37684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E875926177F100100D37684 /* FlipBoard */,
+				1E875941177F100100D37684 /* FlipBoardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E875925177F100100D37684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E875935177F100100D37684 /* InfoPlist.strings in Resources */,
+				1E87593D177F100100D37684 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E875940177F100100D37684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E87594E177F100100D37684 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E875923177F100100D37684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E87593B177F100100D37684 /* AppDelegate.m in Sources */,
+				1E875937177F100100D37684 /* main.m in Sources */,
+				1E87595B177F106500D37684 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E87593E177F100100D37684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E875950177F100100D37684 /* FlipBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E875948177F100100D37684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E875926177F100100D37684 /* FlipBoard */;
+			targetProxy = 1E875947177F100100D37684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E875933177F100100D37684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E875934177F100100D37684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E87594C177F100100D37684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E87594D177F100100D37684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E875951177F100100D37684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E875952177F100100D37684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E875954177F100100D37684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipBoard/FlipBoard-Prefix.pch";
+				INFOPLIST_FILE = "FlipBoard/FlipBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E875955177F100100D37684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipBoard/FlipBoard-Prefix.pch";
+				INFOPLIST_FILE = "FlipBoard/FlipBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1E875957177F100100D37684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipBoard.app/FlipBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipBoard/FlipBoard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlipBoardTests/FlipBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1E875958177F100100D37684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlipBoard.app/FlipBoard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlipBoard/FlipBoard-Prefix.pch";
+				INFOPLIST_FILE = "FlipBoardTests/FlipBoardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E875922177F100100D37684 /* Build configuration list for PBXProject "FlipBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E875951177F100100D37684 /* Debug */,
+				1E875952177F100100D37684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E875953177F100100D37684 /* Build configuration list for PBXNativeTarget "FlipBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E875954177F100100D37684 /* Debug */,
+				1E875955177F100100D37684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E875956177F100100D37684 /* Build configuration list for PBXNativeTarget "FlipBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E875957177F100100D37684 /* Debug */,
+				1E875958177F100100D37684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E87591F177F100100D37684 /* Project object */;
+}
