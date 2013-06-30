@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
+#import "FlipBoardViewController.h"
 
 @implementation AppDelegate
 
@@ -18,8 +18,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    FlipBoardViewController *flipViewController = [[FlipBoardViewController alloc] init];
     
-    
+    self.window.rootViewController = flipViewController;
     
     return YES;
 }

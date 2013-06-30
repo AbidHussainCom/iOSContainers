@@ -19,7 +19,11 @@
 		1E875946177F100100D37684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E87592E177F100100D37684 /* UIKit.framework */; };
 		1E87594E177F100100D37684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E87594C177F100100D37684 /* InfoPlist.strings */; };
 		1E875950177F100100D37684 /* FlipBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E87594F177F100100D37684 /* FlipBoardTests.m */; };
-		1E87595B177F106500D37684 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E87595A177F106500D37684 /* RootViewController.m */; };
+		1ECC3766177F864F000774CB /* FBIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC3765177F864F000774CB /* FBIndexPath.m */; };
+		1ECC376A177F9522000774CB /* FlipBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E87595F177F140D00D37684 /* FlipBoardView.m */; };
+		1ECC376B177FADC6000774CB /* FlipBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E875961177F163700D37684 /* FlipBoardViewController.m */; };
+		1ECC376C177FADCF000774CB /* ArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E875963177F186500D37684 /* ArticleView.m */; };
+		1ECC376F177FB908000774CB /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC376E177FB309000774CB /* NSArray+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,16 +53,18 @@
 		1E87594B177F100100D37684 /* FlipBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlipBoardTests-Info.plist"; sourceTree = "<group>"; };
 		1E87594D177F100100D37684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1E87594F177F100100D37684 /* FlipBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipBoardTests.m; sourceTree = "<group>"; };
-		1E875959177F106500D37684 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Source/RootViewController.h; sourceTree = "<group>"; };
-		1E87595A177F106500D37684 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Source/RootViewController.m; sourceTree = "<group>"; };
-		1E87595E177F140D00D37684 /* FlipBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlipBoard.h; path = Source/FlipBoard.h; sourceTree = "<group>"; };
-		1E87595F177F140D00D37684 /* FlipBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlipBoard.m; path = Source/FlipBoard.m; sourceTree = "<group>"; };
+		1E87595E177F140D00D37684 /* FlipBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlipBoardView.h; path = Source/FlipBoardView.h; sourceTree = "<group>"; };
+		1E87595F177F140D00D37684 /* FlipBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlipBoardView.m; path = Source/FlipBoardView.m; sourceTree = "<group>"; };
 		1E875960177F163700D37684 /* FlipBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlipBoardViewController.h; path = Source/FlipBoardViewController.h; sourceTree = "<group>"; };
 		1E875961177F163700D37684 /* FlipBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FlipBoardViewController.m; path = Source/FlipBoardViewController.m; sourceTree = "<group>"; };
-		1E875962177F186500D37684 /* StoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StoryView.h; path = Source/StoryView.h; sourceTree = "<group>"; };
-		1E875963177F186500D37684 /* StoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StoryView.m; path = Source/StoryView.m; sourceTree = "<group>"; };
+		1E875962177F186500D37684 /* ArticleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArticleView.h; path = Source/ArticleView.h; sourceTree = "<group>"; };
+		1E875963177F186500D37684 /* ArticleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ArticleView.m; path = Source/ArticleView.m; sourceTree = "<group>"; };
 		1E875964177F188D00D37684 /* StoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StoryModel.h; path = Source/StoryModel.h; sourceTree = "<group>"; };
 		1E875965177F188D00D37684 /* StoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StoryModel.m; path = Source/StoryModel.m; sourceTree = "<group>"; };
+		1ECC3764177F864F000774CB /* FBIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBIndexPath.h; path = Source/FBIndexPath.h; sourceTree = "<group>"; };
+		1ECC3765177F864F000774CB /* FBIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBIndexPath.m; path = Source/FBIndexPath.m; sourceTree = "<group>"; };
+		1ECC376D177FB309000774CB /* NSArray+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+Additions.h"; path = "Source/NSArray+Additions.h"; sourceTree = "<group>"; };
+		1ECC376E177FB309000774CB /* NSArray+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Additions.m"; path = "Source/NSArray+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,18 +124,13 @@
 		1E875930177F100100D37684 /* FlipBoard */ = {
 			isa = PBXGroup;
 			children = (
+				1ECC3769177F875C000774CB /* Shared */,
+				1ECC3768177F8752000774CB /* Model */,
+				1ECC3767177F8734000774CB /* Views */,
 				1E875939177F100100D37684 /* AppDelegate.h */,
 				1E87593A177F100100D37684 /* AppDelegate.m */,
-				1E875959177F106500D37684 /* RootViewController.h */,
-				1E87595A177F106500D37684 /* RootViewController.m */,
 				1E875960177F163700D37684 /* FlipBoardViewController.h */,
 				1E875961177F163700D37684 /* FlipBoardViewController.m */,
-				1E875962177F186500D37684 /* StoryView.h */,
-				1E875963177F186500D37684 /* StoryView.m */,
-				1E875964177F188D00D37684 /* StoryModel.h */,
-				1E875965177F188D00D37684 /* StoryModel.m */,
-				1E87595E177F140D00D37684 /* FlipBoard.h */,
-				1E87595F177F140D00D37684 /* FlipBoard.m */,
 				1E87593C177F100100D37684 /* Images.xcassets */,
 				1E875931177F100100D37684 /* Supporting Files */,
 			);
@@ -163,6 +164,37 @@
 				1E87594C177F100100D37684 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ECC3767177F8734000774CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E875962177F186500D37684 /* ArticleView.h */,
+				1E875963177F186500D37684 /* ArticleView.m */,
+				1E87595E177F140D00D37684 /* FlipBoardView.h */,
+				1E87595F177F140D00D37684 /* FlipBoardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1ECC3768177F8752000774CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E875964177F188D00D37684 /* StoryModel.h */,
+				1E875965177F188D00D37684 /* StoryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1ECC3769177F875C000774CB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1ECC3764177F864F000774CB /* FBIndexPath.h */,
+				1ECC3765177F864F000774CB /* FBIndexPath.m */,
+				1ECC376D177FB309000774CB /* NSArray+Additions.h */,
+				1ECC376E177FB309000774CB /* NSArray+Additions.m */,
+			);
+			name = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECC376B177FADC6000774CB /* FlipBoardViewController.m in Sources */,
+				1ECC376A177F9522000774CB /* FlipBoardView.m in Sources */,
+				1ECC376C177FADCF000774CB /* ArticleView.m in Sources */,
 				1E87593B177F100100D37684 /* AppDelegate.m in Sources */,
+				1ECC376F177FB908000774CB /* NSArray+Additions.m in Sources */,
 				1E875937177F100100D37684 /* main.m in Sources */,
-				1E87595B177F106500D37684 /* RootViewController.m in Sources */,
+				1ECC3766177F864F000774CB /* FBIndexPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +495,7 @@
 				1E875955177F100100D37684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E875956177F100100D37684 /* Build configuration list for PBXNativeTarget "FlipBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +504,7 @@
 				1E875958177F100100D37684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
