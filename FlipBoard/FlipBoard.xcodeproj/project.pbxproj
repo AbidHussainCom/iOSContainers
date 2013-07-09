@@ -24,6 +24,7 @@
 		1ECC376B177FADC6000774CB /* FlipBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E875961177F163700D37684 /* FlipBoardViewController.m */; };
 		1ECC376C177FADCF000774CB /* ArticleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E875963177F186500D37684 /* ArticleView.m */; };
 		1ECC376F177FB908000774CB /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECC376E177FB309000774CB /* NSArray+Additions.m */; };
+		1ECC3772178123DD000774CB /* Running-sun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1ECC3771178123DD000774CB /* Running-sun.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		1ECC3765177F864F000774CB /* FBIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBIndexPath.m; path = Source/FBIndexPath.m; sourceTree = "<group>"; };
 		1ECC376D177FB309000774CB /* NSArray+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+Additions.h"; path = "Source/NSArray+Additions.h"; sourceTree = "<group>"; };
 		1ECC376E177FB309000774CB /* NSArray+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Additions.m"; path = "Source/NSArray+Additions.m"; sourceTree = "<group>"; };
+		1ECC3771178123DD000774CB /* Running-sun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Running-sun.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				1E875960177F163700D37684 /* FlipBoardViewController.h */,
 				1E875961177F163700D37684 /* FlipBoardViewController.m */,
 				1E87593C177F100100D37684 /* Images.xcassets */,
+				1ECC3771178123DD000774CB /* Running-sun.jpg */,
 				1E875931177F100100D37684 /* Supporting Files */,
 			);
 			path = FlipBoard;
@@ -274,6 +277,7 @@
 			files = (
 				1E875935177F100100D37684 /* InfoPlist.strings in Resources */,
 				1E87593D177F100100D37684 /* Images.xcassets in Resources */,
+				1ECC3772178123DD000774CB /* Running-sun.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

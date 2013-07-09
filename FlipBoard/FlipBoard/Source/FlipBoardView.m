@@ -71,6 +71,9 @@
     _upFlipView.frame = self.bounds;
     _downFlipView.frame = self.bounds;
     
+    _flipView.backgroundColor = [UIColor redColor];
+    _downFlipView.backgroundColor = [UIColor redColor];
+    
     [self addSubview:_upFlipView];
     [self addSubview:_leftFlipView];
     [self addSubview:_rightFlipView];
@@ -123,8 +126,8 @@
         
     }
     else{
-    
-    
+        CATransform3D _3Dt = CATransform3DRotate(self.layer.transform,1.04, 1.0, 0.0,0.0);
+        self.layer.transform=_3Dt;
     }
 
 }
