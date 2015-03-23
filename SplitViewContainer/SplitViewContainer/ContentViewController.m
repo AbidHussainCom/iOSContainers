@@ -79,8 +79,12 @@
 
     //Block view from panning outside bounds
     BOOL panningInsideBounds = [self panningInsideBoundsWithTranslatedPoint:(CGPoint)translatedPoint];
-    if(panningInsideBounds)
+    if(panningInsideBounds){
         contentView.center = translatedPoint;
+    }
+    else{
+        NSLog(@"ddd");
+    }
     
     if(state == UIGestureRecognizerStateEnded){
         BOOL slideRight = velocity.x > 0 ? YES : NO;

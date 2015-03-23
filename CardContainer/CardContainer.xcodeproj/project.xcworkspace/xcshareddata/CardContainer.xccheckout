@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4B2FD24B-420B-4CB2-BD08-F230E7FAD17D</string>
+	<string>087CF8DF-E16C-4B88-8379-6FE5D2BEB064</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FlipBoard</string>
+	<string>CardContainer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7C786511197489EA93E46D68DE586BE76DFE2ECF</key>
 		<string>https://github.com/runrunrun/iOSContainers.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FlipBoard/FlipBoard.xcodeproj</string>
+	<string>CardContainer/CardContainer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7C786511197489EA93E46D68DE586BE76DFE2ECF</key>

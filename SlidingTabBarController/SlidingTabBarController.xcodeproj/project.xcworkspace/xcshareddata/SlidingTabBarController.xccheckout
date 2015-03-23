@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4B2FD24B-420B-4CB2-BD08-F230E7FAD17D</string>
+	<string>182A2D07-E59B-4BE4-BC15-5BF82346C3EE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FlipBoard</string>
+	<string>SlidingTabBarController</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7C786511197489EA93E46D68DE586BE76DFE2ECF</key>
 		<string>https://github.com/runrunrun/iOSContainers.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FlipBoard/FlipBoard.xcodeproj</string>
+	<string>SlidingTabBarController/SlidingTabBarController.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7C786511197489EA93E46D68DE586BE76DFE2ECF</key>

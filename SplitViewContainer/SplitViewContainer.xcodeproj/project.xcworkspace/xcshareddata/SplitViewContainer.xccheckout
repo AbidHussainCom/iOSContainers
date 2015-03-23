@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4B2FD24B-420B-4CB2-BD08-F230E7FAD17D</string>
+	<string>1E7AF9A0-4986-407A-A9AA-59CF54926E06</string>
 	<key>IDESourceControlProjectName</key>
-	<string>FlipBoard</string>
+	<string>SplitViewContainer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7C786511197489EA93E46D68DE586BE76DFE2ECF</key>
 		<string>https://github.com/runrunrun/iOSContainers.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FlipBoard/FlipBoard.xcodeproj</string>
+	<string>SplitViewContainer/SplitViewContainer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7C786511197489EA93E46D68DE586BE76DFE2ECF</key>
