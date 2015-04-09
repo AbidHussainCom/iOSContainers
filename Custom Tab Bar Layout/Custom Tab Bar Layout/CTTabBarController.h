@@ -14,4 +14,7 @@
 
 + (instancetype)tabBarControllerWithViewControllers:(NSArray *)viewControllers;
 
+- (void)displaceTabBar:(CGFloat)displacement;
+- (void)hideTabBar:(BOOL)hide animated:(BOOL)animated;
+
 @end

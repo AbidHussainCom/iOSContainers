@@ -19,19 +19,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIViewController *viewController1 = [UIViewController new];
+    UIViewController *viewController1 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"viewController1"];
     viewController1.view.backgroundColor = [UIColor redColor];
     viewController1.title = @"tab1";
 
-    UIViewController *viewController2 = [UIViewController new];
+    UIViewController *viewController2 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"viewController2"];
     viewController2.view.backgroundColor = [UIColor blueColor];
     viewController2.title = @"tab2";
 
-    UIViewController *viewController3 = [UIViewController new];
+    UIViewController *viewController3 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"viewController3"];
     viewController3.view.backgroundColor = [UIColor greenColor];
     viewController3.title = @"tab3";
 
-    UIViewController *viewController4 = [UIViewController new];
+    UIViewController *viewController4 = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"viewController4"];
     viewController4.view.backgroundColor = [UIColor yellowColor];
     viewController4.title = @"tab4";
 

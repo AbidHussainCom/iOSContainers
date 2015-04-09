@@ -72,6 +72,20 @@
     }
 }
 
+- (void)displaceTabBar:(CGFloat)displacement {
+    //slide tab bar out
+    CGRect frame = _tabBar.frame;
+    CGFloat y = frame.origin.y + displacement;
+    frame.origin.y = y;
+    _tabBar.frame = frame;
+}
+
+- (void)hideTabBar:(BOOL)hide animated:(BOOL)animated {
+
+}
+
+
+
 - (void)tabButtonPressed:(UIButton *)button {
     NSInteger index = [_tabButtons indexOfObject:button];
     UIViewController *viewController = [_viewControllers objectAtIndex:index];

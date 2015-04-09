@@ -16,6 +16,12 @@
 		1ECA1CDD1AD61AF6007E3CCF /* Custom_Tab_Bar_LayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CDC1AD61AF6007E3CCF /* Custom_Tab_Bar_LayoutTests.m */; };
 		1ECA1CEA1AD61B4F007E3CCF /* CTTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA1CE91AD61B4F007E3CCF /* CTTabBar.storyboard */; };
 		1ECA1CED1AD61FDC007E3CCF /* CTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CEC1AD61FDC007E3CCF /* CTTabBarController.m */; };
+		1ECA1CF01AD6D8D7007E3CCF /* CTTabControlTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CEF1AD6D8D7007E3CCF /* CTTabControlTableView.m */; };
+		1ECA1CF31AD6D94E007E3CCF /* UIView+CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CF21AD6D94E007E3CCF /* UIView+CTView.m */; };
+		1ECA1CF61AD6DC69007E3CCF /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CF51AD6DC69007E3CCF /* ViewController1.m */; };
+		1ECA1CF91AD6DC7C007E3CCF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CF81AD6DC7C007E3CCF /* ViewController2.m */; };
+		1ECA1CFC1AD6DC8A007E3CCF /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CFB1AD6DC8A007E3CCF /* ViewController3.m */; };
+		1ECA1CFF1AD6DCA3007E3CCF /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CFE1AD6DCA3007E3CCF /* ViewController4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,18 @@
 		1ECA1CE91AD61B4F007E3CCF /* CTTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CTTabBar.storyboard; sourceTree = "<group>"; };
 		1ECA1CEB1AD61FDC007E3CCF /* CTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTabBarController.h; sourceTree = "<group>"; };
 		1ECA1CEC1AD61FDC007E3CCF /* CTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTabBarController.m; sourceTree = "<group>"; };
+		1ECA1CEE1AD6D8D7007E3CCF /* CTTabControlTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTabControlTableView.h; sourceTree = "<group>"; };
+		1ECA1CEF1AD6D8D7007E3CCF /* CTTabControlTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTabControlTableView.m; sourceTree = "<group>"; };
+		1ECA1CF11AD6D94E007E3CCF /* UIView+CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CTView.h"; sourceTree = "<group>"; };
+		1ECA1CF21AD6D94E007E3CCF /* UIView+CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTView.m"; sourceTree = "<group>"; };
+		1ECA1CF41AD6DC69007E3CCF /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		1ECA1CF51AD6DC69007E3CCF /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		1ECA1CF71AD6DC7C007E3CCF /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		1ECA1CF81AD6DC7C007E3CCF /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		1ECA1CFA1AD6DC8A007E3CCF /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		1ECA1CFB1AD6DC8A007E3CCF /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		1ECA1CFD1AD6DCA3007E3CCF /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		1ECA1CFE1AD6DCA3007E3CCF /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,14 @@
 				1ECA1CC51AD61AF6007E3CCF /* AppDelegate.m */,
 				1ECA1CC71AD61AF6007E3CCF /* ViewController.h */,
 				1ECA1CC81AD61AF6007E3CCF /* ViewController.m */,
+				1ECA1CF41AD6DC69007E3CCF /* ViewController1.h */,
+				1ECA1CF51AD6DC69007E3CCF /* ViewController1.m */,
+				1ECA1CF71AD6DC7C007E3CCF /* ViewController2.h */,
+				1ECA1CF81AD6DC7C007E3CCF /* ViewController2.m */,
+				1ECA1CFA1AD6DC8A007E3CCF /* ViewController3.h */,
+				1ECA1CFB1AD6DC8A007E3CCF /* ViewController3.m */,
+				1ECA1CFD1AD6DCA3007E3CCF /* ViewController4.h */,
+				1ECA1CFE1AD6DCA3007E3CCF /* ViewController4.m */,
 				1ECA1CCA1AD61AF6007E3CCF /* Main.storyboard */,
 				1ECA1CCD1AD61AF6007E3CCF /* Images.xcassets */,
 				1ECA1CCF1AD61AF6007E3CCF /* LaunchScreen.xib */,
@@ -131,6 +157,10 @@
 				1ECA1CE91AD61B4F007E3CCF /* CTTabBar.storyboard */,
 				1ECA1CEB1AD61FDC007E3CCF /* CTTabBarController.h */,
 				1ECA1CEC1AD61FDC007E3CCF /* CTTabBarController.m */,
+				1ECA1CEE1AD6D8D7007E3CCF /* CTTabControlTableView.h */,
+				1ECA1CEF1AD6D8D7007E3CCF /* CTTabControlTableView.m */,
+				1ECA1CF11AD6D94E007E3CCF /* UIView+CTView.h */,
+				1ECA1CF21AD6D94E007E3CCF /* UIView+CTView.m */,
 			);
 			name = TabBarController;
 			sourceTree = "<group>";
@@ -236,10 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECA1CF31AD6D94E007E3CCF /* UIView+CTView.m in Sources */,
+				1ECA1CFF1AD6DCA3007E3CCF /* ViewController4.m in Sources */,
+				1ECA1CF61AD6DC69007E3CCF /* ViewController1.m in Sources */,
+				1ECA1CFC1AD6DC8A007E3CCF /* ViewController3.m in Sources */,
 				1ECA1CC91AD61AF6007E3CCF /* ViewController.m in Sources */,
 				1ECA1CC61AD61AF6007E3CCF /* AppDelegate.m in Sources */,
 				1ECA1CED1AD61FDC007E3CCF /* CTTabBarController.m in Sources */,
+				1ECA1CF91AD6DC7C007E3CCF /* ViewController2.m in Sources */,
 				1ECA1CC31AD61AF6007E3CCF /* main.m in Sources */,
+				1ECA1CF01AD6D8D7007E3CCF /* CTTabControlTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +468,7 @@
 				1ECA1CE21AD61AF6007E3CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ECA1CE31AD61AF6007E3CCF /* Build configuration list for PBXNativeTarget "Custom Tab Bar LayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +477,7 @@
 				1ECA1CE51AD61AF6007E3CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
