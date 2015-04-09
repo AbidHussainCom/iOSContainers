@@ -14,10 +14,7 @@
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" id="X1i-ZP-5FO">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="hQc-SS-YFy" kind="embed" id="ln7-2g-DQH"/>
-                                </connections>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </containerView>
                             <view contentMode="scaleToFill" id="chM-yU-03d">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
@@ -48,21 +45,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36m-Ia-L1o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="148" y="461"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="OSv-dP-Vos">
-            <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="hQc-SS-YFy" sceneMemberID="viewController">
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="jEE-VN-f8X">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XKJ-HN-cY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="594.13333333333333" y="461.9733333333333"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

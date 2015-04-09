@@ -16,6 +16,8 @@
     __weak IBOutlet UIView *_tabBar;
     __weak IBOutlet UIView *_containerView;
     __weak IBOutlet UIView *_headerView;
+    __weak UIViewController *_topViewController;
+    NSMutableArray *_tabButtons;
 }
 
 + (instancetype)tabBarControllerWithViewControllers:(NSArray *)viewControllers {
@@ -28,16 +30,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    _tabButtons = [NSMutableArray new];
+    
     for (UIViewController *viewController in self.viewControllers) {
         [self addChildViewController:viewController];
-        [self.view addSubview:viewController.view];
+        [_containerView addSubview:viewController.view];
         
         UIButton *tabButton = [UIButton buttonWithType:UIButtonTypeCustom];
         tabButton.layer.borderColor = [[UIColor yellowColor] CGColor];
         tabButton.layer.borderWidth = 1.0f;
         [tabButton setTitle:viewController.title forState:UIControlStateNormal];
+        [tabButton addTarget:self action:@selector(tabButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [_tabBar addSubview:tabButton];
+        
+        
+        [_tabButtons addObject:tabButton];
     }
+    
+    _topViewController = [self.viewControllers lastObject];
     
 }
 
@@ -60,6 +70,12 @@
             x = x + CGRectGetWidth(subView.bounds);
         }
     }
+}
+
+- (void)tabButtonPressed:(UIButton *)button {
+    NSInteger index = [_tabButtons indexOfObject:button];
+    UIViewController *viewController = [_viewControllers objectAtIndex:index];
+    [_containerView bringSubviewToFront:viewController.view];
 }
 
 /*

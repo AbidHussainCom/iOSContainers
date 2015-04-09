@@ -20,15 +20,19 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     UIViewController *viewController1 = [UIViewController new];
+    viewController1.view.backgroundColor = [UIColor redColor];
     viewController1.title = @"tab1";
 
     UIViewController *viewController2 = [UIViewController new];
+    viewController2.view.backgroundColor = [UIColor blueColor];
     viewController2.title = @"tab2";
 
     UIViewController *viewController3 = [UIViewController new];
+    viewController3.view.backgroundColor = [UIColor greenColor];
     viewController3.title = @"tab3";
 
     UIViewController *viewController4 = [UIViewController new];
+    viewController4.view.backgroundColor = [UIColor yellowColor];
     viewController4.title = @"tab4";
 
     
