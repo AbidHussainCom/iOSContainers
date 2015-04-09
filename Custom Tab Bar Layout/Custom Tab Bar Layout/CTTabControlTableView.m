@@ -21,17 +21,16 @@
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
+    
     if (self) {
         _startingOffset = 0;
-//        [self.panGestureRecognizer addTarget:self action:@selector(panning:)];
         
         [self addObserver:self forKeyPath:@"tabBarController" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
-
+        
+        [self addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
     }
+    
     return self;
-}
-
-- (void)awakeFromNib {
 }
 
 
@@ -41,53 +40,20 @@
     
     if ([keyPath isEqualToString:@"tabBarController"]) {
         [self.tabBarController addObserver:self forKeyPath:@"controlViewHeight" options:NSKeyValueObservingOptionNew context:nil];
-        NSLog(@"%@", change);
     }
-    
-    if ([keyPath isEqualToString:@"controlViewHeight"]) {
-        NSLog(@"%@", change);
+    else if ([keyPath isEqualToString:@"controlViewHeight"]) {
         self.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.tabBarController.controlViewHeight)];
     }
-    
-}
-
-- (void)panning:(UIPanGestureRecognizer *)gestureRecognizer {
-    
-    //Using content offset to calculate displacement
-    CGFloat offset = self.contentOffset.y;
-    
-    //Don't displace tab bar when table view bounces.
-    BOOL notTopBounce = offset > 0;
-    BOOL notBottomBounce = offset <= (self.contentSize.height - self.bounds.size.height);
-    if (notTopBounce && notBottomBounce) {
+    else if ([keyPath isEqualToString:@"contentOffset"]) {
+        self.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.tabBarController.controlViewHeight)];
+        
+        CGFloat offset = self.contentOffset.y;
         CGFloat displacement = offset - _startingOffset;
-        [self displaceTabBar:displacement];
+        [self.tabBarController displaceTabBar:-displacement];
+
         _startingOffset = offset;
     }
-    
-    //Using state information to decide on correct animation(hide/show)
-    UIGestureRecognizerState recognizerState = [gestureRecognizer state];
-    
-    if(recognizerState == UIGestureRecognizerStateBegan){
-    }
-    else if (recognizerState == UIGestureRecognizerStateEnded){
-        
-        CGPoint velocity = [(UIPanGestureRecognizer *)gestureRecognizer velocityInView:self];
-        BOOL hide = velocity.y < 0;
-        [self.tabBarController hideTabBar:hide animated:YES];
-    }
-    
 }
-
-
-#pragma mark -
-
-- (void)displaceTabBar:(CGFloat)displacement {
-    
-    [self.tabBarController displaceTabBar:displacement];
-}
-
-
 
 
 @end

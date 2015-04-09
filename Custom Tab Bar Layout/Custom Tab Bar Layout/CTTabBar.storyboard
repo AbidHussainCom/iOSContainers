@@ -16,23 +16,48 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </containerView>
-                            <view contentMode="scaleToFill" id="J4D-vN-J8b" userLabel="HeaderView">
+                            <view contentMode="scaleToFill" id="J4D-vN-J8b" userLabel="Header View">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="238"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Spb-uV-Z31" userLabel="Title">
+                                        <rect key="frame" x="8" y="133" width="304" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shopper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NkM-Uw-4JO" userLabel="SubTitle">
+                                        <rect key="frame" x="8" y="173" width="304" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="oCa-LG-YtK" userLabel="TabBar">
                                 <rect key="frame" x="0.0" y="237" width="320" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1764705926" green="0.56862747670000002" blue="0.72941178080000002" alpha="1" colorSpace="deviceRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" id="bdg-Mm-H4M" userLabel="Image View">
+                                <rect key="frame" x="110" y="15" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="_containerView" destination="X1i-ZP-5FO" id="GxU-KR-Ygj"/>
                         <outlet property="_headerView" destination="J4D-vN-J8b" id="5fs-sj-JMM"/>
+                        <outlet property="_imageView" destination="bdg-Mm-H4M" id="P2i-Eb-1Mc"/>
+                        <outlet property="_subTitleLabel" destination="NkM-Uw-4JO" id="z5f-dw-RFG"/>
                         <outlet property="_tabBar" destination="oCa-LG-YtK" id="bzT-lS-udk"/>
+                        <outlet property="_titleLabel" destination="Spb-uV-Z31" id="ffe-qP-keq"/>
+                        <outlet property="imageView" destination="bdg-Mm-H4M" id="fxs-H7-6ky"/>
+                        <outlet property="titleLabel" destination="Spb-uV-Z31" id="S58-SX-sbY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="36m-Ia-L1o" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -40,6 +65,9 @@
             <point key="canvasLocation" x="148" y="461"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Profile" width="300" height="225"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

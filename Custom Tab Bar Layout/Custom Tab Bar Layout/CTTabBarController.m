@@ -17,6 +17,9 @@
     __weak IBOutlet UIView *_tabBar;
     __weak IBOutlet UIView *_containerView;
     __weak IBOutlet UIView *_headerView;
+    __weak IBOutlet UIImageView *_imageView;
+    __weak IBOutlet UILabel *_titleLabel;
+    __weak IBOutlet UILabel *_subTitleLabel;
     __weak UIViewController *_topViewController;
     NSMutableArray *_tabButtons;
 }
@@ -74,18 +77,57 @@
     }
 }
 
+- (void)setHeaderImage:(UIImage *)headerImage {
+    _headerImage = headerImage;
+    _imageView.image = headerImage;
+}
+
+- (void)setHeaderTitle:(NSString *)headerTitle {
+    _headerTitle = headerTitle;
+    _titleLabel.text = headerTitle;
+}
+
+- (void)setHeaderSubTitle:(NSString *)headerSubTitle {
+    _headerSubTitle = headerSubTitle;
+    _subTitleLabel.text = headerSubTitle;
+}
+
 - (void)displaceTabBar:(CGFloat)displacement {
     //slide tab bar out
     CGRect frame = _tabBar.frame;
     CGFloat y = frame.origin.y + displacement;
     frame.origin.y = y;
     _tabBar.frame = frame;
+    
+    //slide header view
+    frame = _headerView.frame;
+    y = frame.origin.y + displacement;
+    frame.origin.y = y;
+    _headerView.frame = frame;
+    
+    //scale image view size
+    BOOL bouncing = _headerView.top > 0;
+    BOOL isHeaderViewShowing = _headerView.bottom > 0;
+    if (isHeaderViewShowing && !bouncing) {
+        frame = _imageView.frame;
+        CGSize size = CGSizeMake(frame.size.height + displacement, frame.size.width + displacement);
+        NSLog(@"size w: %f, h %f", size.width, size.height);
+        if (size.height > 100) {
+            size.height = 100;
+            size.width = 100;
+        }
+        else if (size.height < 40) {
+            size.height = 40;
+            size.width = 40;
+        }
+        frame.size = size;
+        _imageView.frame = frame;
+        
+        //center image view
+        _imageView.center = CGPointMake(self.view.center.x, _imageView.center.y);
+    }
+
 }
-
-- (void)hideTabBar:(BOOL)hide animated:(BOOL)animated {
-
-}
-
 
 
 - (void)tabButtonPressed:(UIButton *)button {

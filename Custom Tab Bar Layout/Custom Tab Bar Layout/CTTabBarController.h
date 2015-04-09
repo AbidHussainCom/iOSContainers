@@ -12,10 +12,11 @@
 
 @property (nonatomic, copy) NSArray *viewControllers;
 @property (nonatomic, readonly) NSInteger controlViewHeight;
+@property (nonatomic, strong) UIImage *headerImage;
+@property (nonatomic, strong) NSString *headerTitle;
+@property (nonatomic, strong) NSString *headerSubTitle;
 
 + (instancetype)tabBarControllerWithViewControllers:(NSArray *)viewControllers;
-
 - (void)displaceTabBar:(CGFloat)displacement;
-- (void)hideTabBar:(BOOL)hide animated:(BOOL)animated;
 
 @end
