@@ -7,9 +7,10 @@
 //
 
 #import "CTTabBarController.h"
+#import "UIView+CTView.h"
 
 @interface CTTabBarController ()
-
+@property (nonatomic, readwrite, assign) NSInteger controlViewHeight;
 @end
 
 @implementation CTTabBarController {
@@ -49,6 +50,7 @@
     
     _topViewController = [self.viewControllers lastObject];
     
+    self.controlViewHeight = _headerView.height + _tabBar.height;
 }
 
 - (void)didReceiveMemoryWarning {

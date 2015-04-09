@@ -12,7 +12,6 @@
 
 @interface CTTabControlTableView () <UITableViewDelegate>
 
-
 @end
 
 @implementation CTTabControlTableView {
@@ -24,9 +23,32 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         _startingOffset = 0;
-        [self.panGestureRecognizer addTarget:self action:@selector(panning:)];
+//        [self.panGestureRecognizer addTarget:self action:@selector(panning:)];
+        
+        [self addObserver:self forKeyPath:@"tabBarController" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+
     }
     return self;
+}
+
+- (void)awakeFromNib {
+}
+
+
+//Observing tabBarController.controlViewHeight to be set.
+//Using it to set tableHeaderView
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context{
+    
+    if ([keyPath isEqualToString:@"tabBarController"]) {
+        [self.tabBarController addObserver:self forKeyPath:@"controlViewHeight" options:NSKeyValueObservingOptionNew context:nil];
+        NSLog(@"%@", change);
+    }
+    
+    if ([keyPath isEqualToString:@"controlViewHeight"]) {
+        NSLog(@"%@", change);
+        self.tableHeaderView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.tabBarController.controlViewHeight)];
+    }
+    
 }
 
 - (void)panning:(UIPanGestureRecognizer *)gestureRecognizer {

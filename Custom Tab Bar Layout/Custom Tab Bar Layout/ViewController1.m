@@ -7,20 +7,26 @@
 //
 
 #import "ViewController1.h"
+#import "AppDelegate.h"
+#import "CTTabControlTableView.h"
 
 @interface ViewController1 ()
 
 @end
 
 @implementation ViewController1 {
-    IBOutlet UITableView *_tableView;
+    IBOutlet CTTabControlTableView *_tableView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
+    _tableView.tabBarController = (CTTabBarController *)[AppDelegate sharedInstance].tabBarController;
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 }
 
 - (void)didReceiveMemoryWarning {

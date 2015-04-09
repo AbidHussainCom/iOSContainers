@@ -11,6 +11,7 @@
 @interface CTTabBarController : UIViewController
 
 @property (nonatomic, copy) NSArray *viewControllers;
+@property (nonatomic, readonly) NSInteger controlViewHeight;
 
 + (instancetype)tabBarControllerWithViewControllers:(NSArray *)viewControllers;
 

@@ -7,18 +7,21 @@
 //
 
 #import "ViewController4.h"
+#import "AppDelegate.h"
+#import "CTTabControlTableView.h"
 
 @interface ViewController4 ()
 
 @end
 
 @implementation ViewController4 {
-    __weak IBOutlet UITableView *_tableView;
+    __weak IBOutlet CTTabControlTableView *_tableView;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    _tableView.tabBarController = (CTTabBarController *)[AppDelegate sharedInstance].tabBarController;
 }
 
 - (void)didReceiveMemoryWarning {
