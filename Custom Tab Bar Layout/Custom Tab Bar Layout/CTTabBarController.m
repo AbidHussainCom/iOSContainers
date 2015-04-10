@@ -7,6 +7,7 @@
 //
 
 #import "CTTabBarController.h"
+#import "CTTabItem.h"
 #import "UIView+CTView.h"
 
 @interface CTTabBarController ()
@@ -21,7 +22,7 @@
     __weak IBOutlet UILabel *_titleLabel;
     __weak IBOutlet UILabel *_subTitleLabel;
     __weak UIViewController *_topViewController;
-    NSMutableArray *_tabButtons;
+    NSMutableArray *_tabItems;
 }
 
 + (instancetype)tabBarControllerWithViewControllers:(NSArray *)viewControllers {
@@ -34,21 +35,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    _tabButtons = [NSMutableArray new];
+    _tabItems = [NSMutableArray new];
+    
+    _imageView.image = self.headerImage;
+    _titleLabel.text = self.headerTitle;
+    _subTitleLabel.text = self.headerSubTitle;
     
     for (UIViewController *viewController in self.viewControllers) {
         [self addChildViewController:viewController];
         [_containerView addSubview:viewController.view];
         
-        UIButton *tabButton = [UIButton buttonWithType:UIButtonTypeCustom];
-        tabButton.layer.borderColor = [[UIColor yellowColor] CGColor];
-        tabButton.layer.borderWidth = 1.0f;
-        [tabButton setTitle:viewController.title forState:UIControlStateNormal];
-        [tabButton addTarget:self action:@selector(tabButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-        [_tabBar addSubview:tabButton];
+        UITabBarItem *tabBarItem = viewController.tabBarItem;
         
+        CTTabItem *tabItem = [CTTabItem tabItemWithTitle:tabBarItem.title image:tabBarItem.image tag:tabBarItem.tag];
+        [tabItem addTarget:self action:@selector(tabItemPressed:) forControlEvents:UIControlEventTouchUpInside];
+        [tabItem showLayoutBordersWithColor:[UIColor yellowColor]];
         
-        [_tabButtons addObject:tabButton];
+        [_tabBar addSubview:tabItem];
+        
+        [_tabItems addObject:tabItem];
     }
     
     _topViewController = [self.viewControllers lastObject];
@@ -70,7 +75,7 @@
     
     CGFloat x = 0, y = 0, width = CGRectGetWidth(_tabBar.bounds)/self.viewControllers.count, height = CGRectGetHeight(_tabBar.bounds);
     for (UIView *subView in _tabBar.subviews) {
-        if ([subView isKindOfClass:[UIButton class]]) {
+        if ([subView isKindOfClass:[CTTabItem class]]) {
             subView.frame = CGRectMake(x, y, width, height);
             x = x + CGRectGetWidth(subView.bounds);
         }
@@ -112,9 +117,9 @@
         frame = _imageView.frame;
         CGSize size = CGSizeMake(frame.size.height + displacement, frame.size.width + displacement);
         NSLog(@"size w: %f, h %f", size.width, size.height);
-        if (size.height > 100) {
-            size.height = 100;
-            size.width = 100;
+        if (size.height > 150) {
+            size.height = 150;
+            size.width = 150;
         }
         else if (size.height < 40) {
             size.height = 40;
@@ -130,8 +135,8 @@
 }
 
 
-- (void)tabButtonPressed:(UIButton *)button {
-    NSInteger index = [_tabButtons indexOfObject:button];
+- (void)tabItemPressed:(UIButton *)button {
+    NSInteger index = [_tabItems indexOfObject:button];
     UIViewController *viewController = [_viewControllers objectAtIndex:index];
     [_containerView bringSubviewToFront:viewController.view];
 }

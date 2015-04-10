@@ -22,6 +22,7 @@
 		1ECA1CF91AD6DC7C007E3CCF /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CF81AD6DC7C007E3CCF /* ViewController2.m */; };
 		1ECA1CFC1AD6DC8A007E3CCF /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CFB1AD6DC8A007E3CCF /* ViewController3.m */; };
 		1ECA1CFF1AD6DCA3007E3CCF /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1CFE1AD6DCA3007E3CCF /* ViewController4.m */; };
+		1ECA1D051AD7635A007E3CCF /* CTTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA1D041AD7635A007E3CCF /* CTTabItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		1ECA1CFB1AD6DC8A007E3CCF /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		1ECA1CFD1AD6DCA3007E3CCF /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
 		1ECA1CFE1AD6DCA3007E3CCF /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		1ECA1D031AD7635A007E3CCF /* CTTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTTabItem.h; sourceTree = "<group>"; };
+		1ECA1D041AD7635A007E3CCF /* CTTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTTabItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +107,7 @@
 		1ECA1CBF1AD61AF6007E3CCF /* Custom Tab Bar Layout */ = {
 			isa = PBXGroup;
 			children = (
-				1ECA1CE61AD61B02007E3CCF /* TabBarController */,
+				1ECA1CE61AD61B02007E3CCF /* shared */,
 				1ECA1CC41AD61AF6007E3CCF /* AppDelegate.h */,
 				1ECA1CC51AD61AF6007E3CCF /* AppDelegate.m */,
 				1ECA1CC71AD61AF6007E3CCF /* ViewController.h */,
@@ -151,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1ECA1CE61AD61B02007E3CCF /* TabBarController */ = {
+		1ECA1CE61AD61B02007E3CCF /* shared */ = {
 			isa = PBXGroup;
 			children = (
 				1ECA1CE91AD61B4F007E3CCF /* CTTabBar.storyboard */,
@@ -159,10 +162,12 @@
 				1ECA1CEC1AD61FDC007E3CCF /* CTTabBarController.m */,
 				1ECA1CEE1AD6D8D7007E3CCF /* CTTabControlTableView.h */,
 				1ECA1CEF1AD6D8D7007E3CCF /* CTTabControlTableView.m */,
+				1ECA1D031AD7635A007E3CCF /* CTTabItem.h */,
+				1ECA1D041AD7635A007E3CCF /* CTTabItem.m */,
 				1ECA1CF11AD6D94E007E3CCF /* UIView+CTView.h */,
 				1ECA1CF21AD6D94E007E3CCF /* UIView+CTView.m */,
 			);
-			name = TabBarController;
+			name = shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +274,7 @@
 				1ECA1CF31AD6D94E007E3CCF /* UIView+CTView.m in Sources */,
 				1ECA1CFF1AD6DCA3007E3CCF /* ViewController4.m in Sources */,
 				1ECA1CF61AD6DC69007E3CCF /* ViewController1.m in Sources */,
+				1ECA1D051AD7635A007E3CCF /* CTTabItem.m in Sources */,
 				1ECA1CFC1AD6DC8A007E3CCF /* ViewController3.m in Sources */,
 				1ECA1CC91AD61AF6007E3CCF /* ViewController.m in Sources */,
 				1ECA1CC61AD61AF6007E3CCF /* AppDelegate.m in Sources */,
